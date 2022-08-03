@@ -15,11 +15,12 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
 
-    animation: "LoadingFadeOut 0.2s linear 2s forwards",
+    animation: "LoadingFadeOut 0.2s linear 3.3s forwards",
   },
   logo: {
-    height: "200px",
-    transform: "scale(0)",
-    animation: "ImagePopup 2s linear 0s forwards",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    transform: "scale(0.5)",
   },
 }));
