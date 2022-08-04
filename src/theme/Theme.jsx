@@ -5,22 +5,31 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 const darkMode = createTheme({
   palette: {
     primary: {
-      main: "#65FEDA",
+      main: "#64ffda",
       contrastText: "#ffffff",
     },
     background: {
-      light: "#112341", // for cards background
-      main: "#0A192F", // for main page
+      lighter:"#233554",
+      light: "#112240", // for cards background
+      main: "#0a192f", // for main page
       dark: "#020D1A", // for loading page
       contrastText: "#ffffff",
     },
     text: {
-      light: "#CDD7F6", // for titles
-      main: "#A8B2d1", // for paragprahs in cards & left-right
-      dark: "#8992B1", // for paragraphs
+      lighter:"#e6f1ff",
+      light: "#ccd6f6", // for titles
+      main: "#a8b2d1", // for paragprahs in cards & left-right
+      dark: "#8892b0", // for paragraphs
     },
   },
 });
+
+
+
+
+
+
+
 
 const Theme = (props) => {
   const { /*theme,*/ children } = props;
