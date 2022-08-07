@@ -1,6 +1,7 @@
 import { makeStyles } from "@mui/styles";
 
 const delay_bar = 0.3;
+const waiting = 0.3;
 
 export const useStyles = makeStyles((theme) => ({
   custom_logo: {
@@ -15,13 +16,15 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: "105px",
     fontWeight: "700",
 
-    animation: `logo-fade-out ${delay_bar}s linear ${delay_bar * 10}s forwards`,
+    animation: `logo-fade-out ${delay_bar}s linear ${delay_bar * 10 +
+      waiting}s forwards`,
 
     "& p": {
-      transform: "translateY(-6px)",
+      transform: "translateY(12px)",
       position: "absolute",
       opacity: "0",
-      animation: `h-fade-in ${delay_bar}s linear ${delay_bar * 7}s forwards`,
+      animation: `h-fade-in ${delay_bar}s linear ${delay_bar * 7 +
+        waiting}s forwards`,
     },
     "& .bar": {
       height: "100px",
@@ -43,37 +46,37 @@ export const useStyles = makeStyles((theme) => ({
     "& .bar-1": {
       transform: "translate(-41px, -71px) rotate(60deg)",
       "& .filled-bar": {
-        animationDelay: `${delay_bar * 1}s`,
+        animationDelay: `${delay_bar * 1 + waiting}s`,
       },
     },
     "& .bar-2": {
       transform: "translate(-82px, 0px) rotate(0deg)",
       "& .filled-bar": {
-        animationDelay: `${delay_bar * 2}s`,
+        animationDelay: `${delay_bar * 2 + waiting}s`,
       },
     },
     "& .bar-3": {
       transform: "translate(-41px, 71px) rotate(-60deg)",
       "& .filled-bar": {
-        animationDelay: `${delay_bar * 3}s`,
+        animationDelay: `${delay_bar * 3 + waiting}s`,
       },
     },
     "& .bar-4": {
       transform: "translate(41px, 71px) rotate(-120deg);",
       "& .filled-bar": {
-        animationDelay: `${delay_bar * 4}s`,
+        animationDelay: `${delay_bar * 4 + waiting}s`,
       },
     },
     "& .bar-5": {
       transform: "translate(82px, 0px) rotate(-180deg)",
       "& .filled-bar": {
-        animationDelay: `${delay_bar * 5}s`,
+        animationDelay: `${delay_bar * 5 + waiting}s`,
       },
     },
     "& .bar-6": {
       transform: "translate(41px, -71px) rotate(-240deg);",
       "& .filled-bar": {
-        animationDelay: `${delay_bar * 6}s`,
+        animationDelay: `${delay_bar * 6 + waiting}s`,
       },
     },
   },

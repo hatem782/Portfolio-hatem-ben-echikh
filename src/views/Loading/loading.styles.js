@@ -3,7 +3,8 @@ import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles((theme) => ({
   loading: {
     height: "100vh",
-    width: "100vw",
+    width: "100%",
+    overflow: "hidden",
     backgroundColor: theme.palette.background.dark,
 
     position: "absolute",

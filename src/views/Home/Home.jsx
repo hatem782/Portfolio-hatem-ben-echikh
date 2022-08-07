@@ -1,12 +1,13 @@
 import React from "react";
-import NavBar from "../../layouts/navbar/NavBar";
+import Globalinfo from "../sections/globalinfo/Globalinfo";
+
 import { useStyles } from "./home.styles";
 
 function Home() {
   const styles = useStyles();
   return (
     <div className={styles.home}>
-      <NavBar />
+      <Globalinfo />
     </div>
   );
 }

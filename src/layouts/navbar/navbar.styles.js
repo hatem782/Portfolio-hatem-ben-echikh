@@ -57,5 +57,6 @@ export const useStyles = makeStyles((theme) => ({
     height: "70px",
     backgroundColor: "rgba(10, 25, 47, 0.85)",
     boxShadow: `0 10px 30px -10px rgba(2,12,27,0.7)`,
+    backdropFilter: "blur(10px)",
   },
 }));
