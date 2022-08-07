@@ -7,7 +7,7 @@ export const useStyles = makeStyles((theme) => ({
     overflow: "hidden",
     backgroundColor: theme.palette.background.dark,
 
-    position: "absolute",
+    position: "fixed",
     top: "0px",
     left: "0px",
     zIndex: "9999",
