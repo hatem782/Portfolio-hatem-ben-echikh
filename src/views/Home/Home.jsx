@@ -1,6 +1,7 @@
 import React from "react";
 import LeftBar from "../../layouts/leftbar/LeftBar";
 import RightBar from "../../layouts/rightbar/RightBar";
+import About from "../sections/about/About";
 import Globalinfo from "../sections/globalinfo/Globalinfo";
 
 import { useStyles } from "./home.styles";
@@ -14,6 +15,7 @@ function Home() {
       </div>
       <div className="main-part">
         <Globalinfo />
+        <About />
       </div>
       <div className="right-part">
         <RightBar />

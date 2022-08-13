@@ -1,0 +1,62 @@
+import { makeStyles } from "@mui/styles";
+
+export const useStyles = makeStyles((theme) => ({
+  about: {
+    padding: "100px 0px",
+    width: "100%",
+    "& .container": {
+      width: "100%",
+      display: "flex",
+      alignItems: "flex-start",
+      justifyContent: "space-between",
+
+      "& .description": {
+        width: "65%",
+        "& p": {
+          color: theme.palette.text.dark,
+          fontSize: "20px",
+          lineHeight: "1.4",
+          fontWeight: "300",
+        },
+      },
+      "& .img-part": {
+        width: "35%",
+        padding: "0px 0px 0px 20px",
+        "& .img-container": {
+          width: "100%",
+          aspectRatio: "1 / 1",
+          position: "relative",
+
+          "& .img": {
+            boxShadow: "0 10px 30px -15px rgba(2,12,27,0.7)",
+            width: "100%",
+            height: "100%",
+            backgroundSize: "cover",
+            backgroundPosition: "50% 50%",
+            backgroundRepeat: "no-repeat",
+            borderRadius: "5px",
+            position: "absolute",
+            zIndex: "2",
+          },
+          "& .box-border": {
+            height: "100%",
+            width: "100%",
+            border: `solid 2px ${theme.palette.primary.main}`,
+            position: "absolute",
+            top: "0",
+            zIndex: "1",
+            borderRadius: "5px",
+            transform: "translate(20px, 20px)",
+            transition: "all 0.2s",
+          },
+
+          "&:hover": {
+            "& .box-border": {
+              transform: "translate(15px, 15px)",
+            },
+          },
+        },
+      },
+    },
+  },
+}));

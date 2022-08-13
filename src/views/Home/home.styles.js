@@ -5,7 +5,6 @@ export const useStyles = makeStyles((theme) => ({
     height: "300vh",
     width: "100%",
     backgroundColor: theme.palette.background.main,
-    padding: "90px 0px 20px 0px",
 
     display: "flex",
     alignItems: "flex-start",
@@ -16,7 +15,7 @@ export const useStyles = makeStyles((theme) => ({
     },
 
     "& .left-part , .right-part": {
-      width: "176px",
+      minWidth: "176px",
       bottom: "0px",
 
       display: "flex",

@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Theme>
-        <Loading />
+        {/* <Loading /> */}
         <NavBar />
         <Home />
       </Theme>

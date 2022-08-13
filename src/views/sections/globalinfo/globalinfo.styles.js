@@ -2,6 +2,7 @@ import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles((theme) => ({
   main: {
+    padding: "100px 0px 100px 0px",
     "& .mynameis": {
       color: theme.palette.primary.main,
       fontFamily: "SFMono",
