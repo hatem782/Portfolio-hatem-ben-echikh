@@ -8,6 +8,16 @@ import { useStyles } from "./about.styles";
 
 function About() {
   const styles = useStyles();
+  const skills = [
+    "JavaScript (ES6+)",
+    "React",
+    "Redux",
+    "Next.js",
+    "Node.js",
+    "Socket.io",
+    "MongoDB",
+    "Firebase",
+  ];
   return (
     <div className={styles.about}>
       <TitlePart num={"01."}>About Me</TitlePart>
@@ -31,6 +41,15 @@ function About() {
             build a web app with the Spotify API using Node & React.
           </p>
           <p>Here are a few technologies I’ve been working with recently : </p>
+          <ul className="skills">
+            {skills.map((skill, key) => {
+              return (
+                <li key={key}>
+                  <span className="point">▹</span> {skill}
+                </li>
+              );
+            })}
+          </ul>
         </div>
         <div className="img-part">
           <div className="img-container">

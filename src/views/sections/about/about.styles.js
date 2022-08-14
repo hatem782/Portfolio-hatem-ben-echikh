@@ -18,6 +18,29 @@ export const useStyles = makeStyles((theme) => ({
           lineHeight: "1.4",
           fontWeight: "300",
         },
+        "& .skills": {
+          width: "600px",
+          fontWeight: "300",
+          fontSize: "18px",
+          lineHieght: "2",
+          listStyleType: "none",
+          padding: "0px",
+          margin: "0px",
+
+          display: "flex",
+          alignItems: "flex-start",
+          justifyContent: "flex-start",
+          flexWrap: "wrap",
+
+          "& li": {
+            width: "33%",
+            color: theme.palette.text.dark,
+            "& .point": {
+              color: theme.palette.primary.main,
+              fontSize: "14px",
+            },
+          },
+        },
       },
       "& .img-part": {
         width: "35%",
