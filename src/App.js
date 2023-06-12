@@ -1,15 +1,17 @@
 import React from "react";
 import Theme from "./theme/Theme.jsx";
-import Home from "./views/Home/Home.jsx";
-import Loading from "./views/Loading/Loading";
+import Home from "./pages/Home/Home.jsx";
+import Loading from "./pages/Loading/Loading";
 import NavBar from "./layouts/navbar/NavBar";
+
 function App() {
   return (
     <div>
       <Theme>
-        {/* <Loading /> */}
+        <Loading />
         <NavBar />
         <Home />
+        {/* <Profile /> */}
       </Theme>
     </div>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import { useStyles } from "./loading.styles";
-// import animatedLogo from "../../assets/logo/AnimatedLogo.svg";
 import Logo from "../../components/logo/Logo";
 
 function Loading() {

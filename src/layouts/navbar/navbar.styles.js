@@ -3,8 +3,9 @@ import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles((theme) => ({
   navbar: {
     padding: "0px 50px",
-    height: "100px",
+    height: "70px", // 100px
     width: "100%",
+    backgroundColor: "#0b182f",
 
     display: "flex",
     alignItems: "center",
