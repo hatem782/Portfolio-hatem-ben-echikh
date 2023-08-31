@@ -13,9 +13,13 @@ export const useStyles = makeStyles((theme) => ({
     "& .vertical-line": {
       display: "block",
       width: "1px",
-      height: "90px",
+      height: "150px",
       backgroundColor: theme.palette.text.dark,
       margin: "10px 0px 0px 0px",
+
+      [theme.breakpoints.down("xl")]: {
+        height: "90px",
+      },
     },
     "& p": {
       color: theme.palette.text.dark,
@@ -23,7 +27,7 @@ export const useStyles = makeStyles((theme) => ({
       margin: "20px auto",
 
       fontFamily: "SFMono",
-      fontSize: "14px",
+      fontSize: "15px",
       fontWeight: "400",
       lineHeight: "18px",
       letterSpacing: "1px",
@@ -31,6 +35,10 @@ export const useStyles = makeStyles((theme) => ({
       writingMode: "vertical-rl",
       transition: "all 0.2s",
       cursor: "pointer",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "14px",
+      },
 
       "&:hover": {
         color: theme.palette.primary.main,

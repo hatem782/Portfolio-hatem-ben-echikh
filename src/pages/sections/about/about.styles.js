@@ -2,7 +2,7 @@ import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles((theme) => ({
   about: {
-    padding: "100px 0px",
+    padding: "50px 0px",
     width: "100%",
     "& .container": {
       width: "100%",
@@ -14,14 +14,18 @@ export const useStyles = makeStyles((theme) => ({
         width: "65%",
         "& p": {
           color: theme.palette.text.dark,
-          fontSize: "20px",
+          fontSize: "22px",
           lineHeight: "1.4",
           fontWeight: "300",
+
+          [theme.breakpoints.down("xl")]: {
+            fontSize: "20px",
+          },
         },
         "& .skills": {
           width: "600px",
           fontWeight: "300",
-          fontSize: "18px",
+          fontSize: "20px",
           lineHieght: "2",
           listStyleType: "none",
           padding: "0px",
@@ -32,12 +36,20 @@ export const useStyles = makeStyles((theme) => ({
           justifyContent: "flex-start",
           flexWrap: "wrap",
 
+          [theme.breakpoints.down("xl")]: {
+            fontSize: "18px",
+          },
+
           "& li": {
             width: "33%",
             color: theme.palette.text.dark,
             "& .point": {
               color: theme.palette.primary.main,
-              fontSize: "14px",
+              fontSize: "20px",
+
+              [theme.breakpoints.down("xl")]: {
+                fontSize: "14px",
+              },
             },
           },
         },

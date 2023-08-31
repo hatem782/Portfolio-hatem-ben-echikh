@@ -9,13 +9,21 @@ export const useStyles = makeStyles((theme) => ({
     "& .number": {
       color: theme.palette.primary.main,
       fontFamily: "SFMono",
-      fontSize: "20px",
+      fontSize: "22px",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "20px",
+      },
     },
     "& .title": {
       color: theme.palette.text.light,
-      fontSize: "30px",
+      fontSize: "32px",
       fontWeight: "500",
       margin: "0px 10px",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "30px",
+      },
     },
     "& .line": {
       height: "1px",
