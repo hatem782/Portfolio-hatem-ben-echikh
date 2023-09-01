@@ -17,7 +17,7 @@ function Globalinfo() {
           Currently, I’m a <span className="important">freelancer</span> and i
           am looking for a new opportunitys to work as a part-time web developer
         </p>
-        <OutlinedButton>Check out my course!</OutlinedButton>
+        <OutlinedButton>My Resume</OutlinedButton>
       </div>
     </section>
   );
