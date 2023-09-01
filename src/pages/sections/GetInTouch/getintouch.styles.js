@@ -21,6 +21,10 @@ export const useStyles = makeStyles((theme) => ({
       width: "fit-content",
       fontFamily: "SFMono",
       display: "block",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "18px",
+      },
     },
 
     "& .big-title": {
@@ -30,6 +34,10 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: "80px",
       margin: "20px 0px 0px 0px",
       letterSpacing: "0px",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "60px",
+      },
     },
 
     "& .desc": {
@@ -39,15 +47,31 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: "28px",
       margin: "20px 0px 0px 0px",
       width: "50%",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "22px",
+        fontWeight: "300",
+        margin: "10px 0px 0px 0px",
+        width: "60%",
+      },
     },
 
     "& .btn-more": {
       width: "fit-content",
       margin: "40px 0px 0px 0px",
 
+      [theme.breakpoints.down("xl")]: {
+        margin: "30px 0px 0px 0px",
+      },
+
       "& .button-custom": {
         fontSize: "20px",
         padding: "26px 52px",
+
+        [theme.breakpoints.down("xl")]: {
+          fontSize: "16px",
+          padding: "20px 30px",
+        },
       },
     },
   },

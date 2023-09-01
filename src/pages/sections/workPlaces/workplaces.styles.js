@@ -6,16 +6,26 @@ export const useStyles = makeStyles((theme) => ({
     width: "80%",
     margin: "auto",
 
+    [theme.breakpoints.down("xl")]: {
+      padding: "75px 0px",
+      width: "90%",
+    },
+
     "& .container": {
       width: "100%",
       display: "flex",
       margin: "80px 0px 0px 0px",
+
+      [theme.breakpoints.down("xl")]: {
+        margin: "60px 0px 0px 0px",
+      },
     },
 
     "& .left": {
       width: "20%",
       height: "fit-content",
       borderLeft: "2px solid #233554",
+
       "& span": {
         display: "block",
         color: theme.palette.text.main,
@@ -26,6 +36,11 @@ export const useStyles = makeStyles((theme) => ({
         cursor: "pointer",
         transition: "all 0.2s",
         width: "80%",
+
+        [theme.breakpoints.down("xl")]: {
+          padding: "18px",
+          fontSize: "18px",
+        },
 
         "&:hover": {
           backgroundColor: theme.palette.background.light,
@@ -62,6 +77,11 @@ export const useStyles = makeStyles((theme) => ({
         color: theme.palette.text.light,
         margin: "10px 0px",
 
+        [theme.breakpoints.down("xl")]: {
+          fontSize: "24px",
+          margin: "0px 0px",
+        },
+
         "& span": {
           color: theme.palette.primary.main,
         },
@@ -73,6 +93,10 @@ export const useStyles = makeStyles((theme) => ({
         color: theme.palette.text.main,
         margin: "0px 0px 20px 0px",
         fontFamily: "SFMono",
+
+        [theme.breakpoints.down("xl")]: {
+          fontSize: "16px",
+        },
       },
 
       "& .descrip": {
@@ -81,6 +105,10 @@ export const useStyles = makeStyles((theme) => ({
         lineHieght: "2",
         listStyleType: "none",
         padding: "0px",
+
+        [theme.breakpoints.down("xl")]: {
+          fontSize: "20px",
+        },
 
         "& li": {
           margin: "20px 0px",

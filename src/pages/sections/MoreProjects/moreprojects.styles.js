@@ -6,6 +6,11 @@ export const useStyles = makeStyles((theme) => ({
     width: "81%",
     margin: "auto",
 
+    [theme.breakpoints.down("xl")]: {
+      padding: "0px 0px 75px 0px",
+      width: "91%",
+    },
+
     "& .big-title": {
       textAlign: "center",
       color: theme.palette.text.light,
@@ -13,6 +18,11 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: "40px",
       margin: "0px 0px 10px 0px",
       letterSpacing: "0px",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "35px",
+        margin: "0px 0px 5px 0px",
+      },
     },
 
     "& .big-link": {
@@ -28,6 +38,10 @@ export const useStyles = makeStyles((theme) => ({
       fontFamily: "SFMono",
       display: "block",
       textDecoration: "none",
+
+      [theme.breakpoints.down("xl")]: {
+        fontSize: "16px",
+      },
 
       "&::after": {
         content: "''",
@@ -55,11 +69,19 @@ export const useStyles = makeStyles((theme) => ({
       width: "100%",
       flexWrap: "wrap",
       margin: "50px 0px",
+
+      [theme.breakpoints.down("xl")]: {
+        margin: "30px 0px",
+      },
     },
 
     "& .btn-more": {
       width: "fit-content",
       margin: "50px auto",
+
+      [theme.breakpoints.down("xl")]: {
+        margin: "40px auto",
+      },
 
       "& .button-custom": {
         fontSize: "16px",
@@ -82,6 +104,10 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     flexDirection: "column",
 
+    [theme.breakpoints.down("xl")]: {
+      padding: "3% 3%",
+    },
+
     "& .header-body": {
       width: "100%",
 
@@ -93,8 +119,16 @@ export const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "space-between",
 
+        [theme.breakpoints.down("xl")]: {
+          margin: "0px 0px 27px 0px",
+        },
+
         "& .folder-icon": {
           height: "50px",
+
+          [theme.breakpoints.down("xl")]: {
+            height: "40px",
+          },
         },
 
         "& .links": {
@@ -106,11 +140,19 @@ export const useStyles = makeStyles((theme) => ({
             height: "24px",
             margin: "0px 10px 0px 0px",
             cursor: "pointer",
+
+            [theme.breakpoints.down("xl")]: {
+              height: "22px",
+            },
           },
 
           "& .lnk-icon": {
             height: "26px",
             cursor: "pointer",
+
+            [theme.breakpoints.down("xl")]: {
+              height: "25px",
+            },
           },
         },
       },
@@ -127,12 +169,22 @@ export const useStyles = makeStyles((theme) => ({
           fontWeight: "500",
           color: theme.palette.text.light,
           transition: "all 0.2s",
+
+          [theme.breakpoints.down("xl")]: {
+            fontSize: "23px",
+            fontWeight: "500",
+          },
         },
 
         "& .desc": {
           color: theme.palette.text.main,
           fontSize: "22px",
           fontWeight: "300",
+
+          [theme.breakpoints.down("xl")]: {
+            fontSize: "18px",
+            margin: "10px 0px 0px 0px",
+          },
 
           "& span": {
             color: theme.palette.primary.main,
@@ -157,6 +209,10 @@ export const useStyles = makeStyles((theme) => ({
         display: "block",
         margin: "0px 15px 0px 0px",
         userSelect: "none",
+
+        [theme.breakpoints.down("xl")]: {
+          fontSize: "13px",
+        },
 
         "&:hover": {
           color: theme.palette.primary.main,
