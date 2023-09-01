@@ -56,6 +56,16 @@ export const useStyles = makeStyles((theme) => ({
       flexWrap: "wrap",
       margin: "50px 0px",
     },
+
+    "& .btn-more": {
+      width: "fit-content",
+      margin: "50px auto",
+
+      "& .button-custom": {
+        fontSize: "16px",
+        padding: "20px 30px",
+      },
+    },
   },
 
   card: {

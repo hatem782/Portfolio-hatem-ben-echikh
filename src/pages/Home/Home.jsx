@@ -6,6 +6,7 @@ import About from "../sections/about/About";
 import WorkPlaces from "../sections/workPlaces/WorkPlaces";
 import MoreProjects from "../sections/MoreProjects/MoreProjects";
 import MyBuilds from "../sections/MyBuilds/MyBuilds";
+import GetInTouch from "../sections/GetInTouch/GetInTouch";
 
 import { useStyles } from "./home.styles";
 
@@ -22,6 +23,7 @@ function Home() {
         <WorkPlaces />
         <MyBuilds />
         <MoreProjects />
+        <GetInTouch />
       </div>
       <div className="right-part">
         <RightBar />

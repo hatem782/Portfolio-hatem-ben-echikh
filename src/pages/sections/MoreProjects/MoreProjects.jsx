@@ -5,8 +5,9 @@ import TitlePart from "../../../components/TitlePart/TitlePart";
 import folder_icon from "../../../assets/svgs/Folder.svg";
 import github_icon from "../../../assets/svgs/GitHub-1.svg";
 import extern_icon from "../../../assets/svgs/External Link.svg";
+import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton";
 
-function MyBuilds() {
+function MoreProjects() {
   const styles = useStyles();
 
   return (
@@ -22,6 +23,10 @@ function MyBuilds() {
         <WorkCard />
         <WorkCard />
         <WorkCard />
+      </div>
+
+      <div className="btn-more">
+        <OutlinedButton>Show More</OutlinedButton>
       </div>
     </div>
   );
@@ -64,4 +69,4 @@ const WorkCard = ({ work }) => {
   );
 };
 
-export default MyBuilds;
+export default MoreProjects;
