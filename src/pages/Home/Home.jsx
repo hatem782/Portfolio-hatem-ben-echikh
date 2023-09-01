@@ -4,9 +4,10 @@ import RightBar from "../../layouts/rightbar/RightBar";
 import Globalinfo from "../sections/globalinfo/Globalinfo";
 import About from "../sections/about/About";
 import WorkPlaces from "../sections/workPlaces/WorkPlaces";
+import MoreProjects from "../sections/MoreProjects/MoreProjects";
+import MyBuilds from "../sections/MyBuilds/MyBuilds";
 
 import { useStyles } from "./home.styles";
-import MyBuilds from "../sections/MyBuilds/MyBuilds";
 
 function Home() {
   const styles = useStyles();
@@ -20,6 +21,7 @@ function Home() {
         <About />
         <WorkPlaces />
         <MyBuilds />
+        <MoreProjects />
       </div>
       <div className="right-part">
         <RightBar />

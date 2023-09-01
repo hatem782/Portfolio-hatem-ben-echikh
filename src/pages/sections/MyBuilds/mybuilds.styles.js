@@ -8,7 +8,7 @@ export const useStyles = makeStyles((theme) => ({
 
     "& .works": {
       width: "100%",
-      padding: "50px 0px",
+      padding: "0px 0px 0px 0px",
     },
   },
 
@@ -19,7 +19,7 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "space-between",
     position: "relative",
-    margin: "100px 0px",
+    margin: "50px 0px 100px 0px",
 
     "& .left": {
       width: "60%",
@@ -66,6 +66,8 @@ export const useStyles = makeStyles((theme) => ({
         position: "absolute",
         right: "0px",
         top: "-35px",
+        cursor: "pointer",
+        transition: "all 0.2s",
       },
 
       "& h2": {
@@ -95,6 +97,26 @@ export const useStyles = makeStyles((theme) => ({
         "& span": {
           color: theme.palette.primary.main,
           fontWeight: "400",
+          position: "relative",
+          width: "fit-content",
+
+          "&::after": {
+            content: "''",
+            width: "0%",
+            height: "1px",
+            backgroundColor: theme.palette.primary.main,
+            display: "block",
+            position: "absolute",
+            left: "0px",
+            bottom: "0px",
+            transition: "all 0.2s",
+          },
+
+          "&:hover": {
+            "&::after": {
+              width: "100%",
+            },
+          },
         },
       },
 
@@ -139,6 +161,14 @@ export const useStyles = makeStyles((theme) => ({
 
         "& .ext": {
           height: "28px",
+        },
+      },
+    },
+
+    "&:hover": {
+      "& .right": {
+        "& h1": {
+          color: theme.palette.primary.main,
         },
       },
     },
