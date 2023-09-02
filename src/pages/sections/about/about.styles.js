@@ -4,14 +4,28 @@ export const useStyles = makeStyles((theme) => ({
   about: {
     padding: "50px 0px",
     width: "100%",
+
+    [theme.breakpoints.down("sm")]: {
+      padding: "30px 0px",
+    },
+
     "& .container": {
       width: "100%",
       display: "flex",
       alignItems: "flex-start",
       justifyContent: "space-between",
 
+      [theme.breakpoints.down("sm")]: {
+        flexDirection: "column-reverse",
+      },
+
       "& .description": {
         width: "65%",
+
+        [theme.breakpoints.down("sm")]: {
+          width: "100%",
+        },
+
         "& p": {
           color: theme.palette.text.dark,
           fontSize: "22px",
@@ -20,6 +34,10 @@ export const useStyles = makeStyles((theme) => ({
 
           [theme.breakpoints.down("xl")]: {
             fontSize: "20px",
+          },
+
+          [theme.breakpoints.down("sm")]: {
+            textAlign: "justify",
           },
         },
         "& .skills": {
@@ -40,15 +58,30 @@ export const useStyles = makeStyles((theme) => ({
             fontSize: "18px",
           },
 
+          [theme.breakpoints.down("sm")]: {
+            width: "100%",
+            fontSize: "20px",
+          },
+
           "& li": {
             width: "33%",
             color: theme.palette.text.dark,
+
+            [theme.breakpoints.down("sm")]: {
+              width: "50%",
+              margin: "3px 0px",
+            },
+
             "& .point": {
               color: theme.palette.primary.main,
               fontSize: "20px",
 
               [theme.breakpoints.down("xl")]: {
                 fontSize: "14px",
+              },
+
+              [theme.breakpoints.down("sm")]: {
+                fontSize: "20px",
               },
             },
           },
@@ -57,6 +90,13 @@ export const useStyles = makeStyles((theme) => ({
       "& .img-part": {
         width: "35%",
         padding: "0px 0px 0px 20px",
+
+        [theme.breakpoints.down("sm")]: {
+          width: "80%",
+          padding: "0px",
+          margin: "20px auto",
+        },
+
         "& .img-container": {
           width: "100%",
           aspectRatio: "1 / 1",
@@ -83,6 +123,10 @@ export const useStyles = makeStyles((theme) => ({
             borderRadius: "5px",
             transform: "translate(20px, 20px)",
             transition: "all 0.2s",
+
+            [theme.breakpoints.down("sm")]: {
+              transform: "translate(15px, 15px)",
+            },
           },
 
           "&:hover": {

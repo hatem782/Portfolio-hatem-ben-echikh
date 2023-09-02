@@ -9,6 +9,11 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     flexDirection: "column",
 
+    [theme.breakpoints.down("sm")]: {
+      padding: "100px 0px 30px 0px",
+      height: "fit-content",
+    },
+
     "& .mynameis": {
       color: theme.palette.primary.main,
       fontFamily: "SFMono",
@@ -21,6 +26,8 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "16px",
         marginBottom: "30px",
       },
+
+      [theme.breakpoints.down("sm")]: {},
     },
     "& h1": {
       fontSize: "100px",
@@ -30,6 +37,10 @@ export const useStyles = makeStyles((theme) => ({
 
       [theme.breakpoints.down("xl")]: {
         fontSize: "80px",
+      },
+
+      [theme.breakpoints.down("sm")]: {
+        fontSize: "40px",
       },
     },
     "& .name": {
@@ -51,6 +62,10 @@ export const useStyles = makeStyles((theme) => ({
         maxWidth: "540px",
       },
 
+      [theme.breakpoints.down("sm")]: {
+        textAlign: "justify",
+      },
+
       "& .important": {
         color: theme.palette.primary.main,
       },
@@ -62,6 +77,13 @@ export const useStyles = makeStyles((theme) => ({
 
       [theme.breakpoints.down("xl")]: {
         padding: "20px 28px",
+        fontSize: "14px",
+      },
+
+      [theme.breakpoints.down("sm")]: {
+        margin: "10px auto",
+        display: "block",
+        padding: "18px 26px",
         fontSize: "14px",
       },
     },

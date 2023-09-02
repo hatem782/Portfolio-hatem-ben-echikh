@@ -6,6 +6,10 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "flex-start",
 
+    "& .info": {
+      minWidth: "fit-content",
+    },
+
     "& .number": {
       color: theme.palette.primary.main,
       fontFamily: "SFMono",
@@ -24,12 +28,22 @@ export const useStyles = makeStyles((theme) => ({
       [theme.breakpoints.down("xl")]: {
         fontSize: "30px",
       },
+
+      [theme.breakpoints.down("sm")]: {
+        fontSize: "24px",
+        margin: "0px 5px",
+      },
     },
     "& .line": {
       height: "1px",
       width: "300px",
       backgroundColor: "#233554",
       transform: "translateY(-3px)",
+
+      [theme.breakpoints.down("sm")]: {
+        flexGrow: "1",
+        width: "auto",
+      },
     },
   },
 }));

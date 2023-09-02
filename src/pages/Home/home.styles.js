@@ -11,6 +11,10 @@ export const useStyles = makeStyles((theme) => ({
 
     "& .main-part": {
       flexGrow: "1",
+
+      [theme.breakpoints.down("sm")]: {
+        padding: "20px",
+      },
     },
 
     "& .left-part , .right-part": {
@@ -21,6 +25,10 @@ export const useStyles = makeStyles((theme) => ({
       flexDirection: "column",
       justifyContent: "flex-end",
       alignItems: "center",
+
+      [theme.breakpoints.down("xl")]: {
+        display: "none",
+      },
     },
     "& .left-part": {
       padding: "0px 40px 0px 0px",
