@@ -30,3 +30,10 @@ code {
   border: 3px solid #0b182f;
   border-radius: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}
