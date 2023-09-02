@@ -7,7 +7,7 @@ function NavBar() {
   const styles = useStyles();
   let shrink = useOnScroll(20);
 
-  const [open, setopen] = useState(true);
+  const [open, setopen] = useState(false);
 
   const handle_open = () => {
     setopen(!open);
