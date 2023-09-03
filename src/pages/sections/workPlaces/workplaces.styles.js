@@ -9,6 +9,12 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xl")]: {
       padding: "75px 0px",
       width: "90%",
+      position: "relative",
+    },
+
+    [theme.breakpoints.down("sm")]: {
+      padding: "75px 0px",
+      width: "100%",
     },
 
     "& .container": {
@@ -19,12 +25,58 @@ export const useStyles = makeStyles((theme) => ({
       [theme.breakpoints.down("xl")]: {
         margin: "60px 0px 0px 0px",
       },
+
+      [theme.breakpoints.down("sm")]: {},
     },
 
     "& .left": {
       width: "20%",
       height: "fit-content",
       borderLeft: "2px solid #233554",
+
+      [theme.breakpoints.down("sm")]: {
+        width: "fit-content",
+        position: "absolute",
+        backgroundColor: "#102241",
+        zIndex: "9",
+        left: "-20px",
+        width: "150px",
+
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column",
+        transform: "translateX(-100%)",
+        transition: "all 0.2s",
+      },
+
+      "& .opener": {
+        display: "none",
+        backgroundColor: theme.palette.primary.main,
+        height: "50px",
+        width: "15px",
+        position: "absolute",
+        borderRadius: "0px 6px 6px 0px",
+        right: "-15px",
+        top: "0px",
+        fontSize: "30px",
+
+        alignItems: "center",
+        justifyContent: "center",
+        cursor: "pointer",
+
+        "& .open": {
+          fontSize: "32px",
+        },
+
+        "& .close": {
+          fontSize: "20px",
+        },
+
+        [theme.breakpoints.down("sm")]: {
+          display: "flex",
+        },
+      },
 
       "& span": {
         display: "block",
@@ -40,6 +92,10 @@ export const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down("xl")]: {
           padding: "18px",
           fontSize: "18px",
+        },
+
+        [theme.breakpoints.down("sm")]: {
+          width: "100%",
         },
 
         "&:hover": {
@@ -66,10 +122,18 @@ export const useStyles = makeStyles((theme) => ({
       },
     },
 
+    "& .opened-left": {
+      transform: "translateX(0%) !important",
+    },
+
     "& .right": {
       width: "80%",
       opacity: "0",
       animation: "FadeOut 0.2s linear 0s forwards",
+
+      [theme.breakpoints.down("sm")]: {
+        width: "100%",
+      },
 
       "& h1": {
         fontWeight: "400",
@@ -108,6 +172,10 @@ export const useStyles = makeStyles((theme) => ({
 
         [theme.breakpoints.down("xl")]: {
           fontSize: "20px",
+        },
+
+        [theme.breakpoints.down("sm")]: {
+          textAlign: "justify",
         },
 
         "& li": {
