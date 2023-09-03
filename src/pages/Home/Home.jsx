@@ -20,7 +20,6 @@ function Home() {
       <div className="main-part">
         <Globalinfo />
         <About />
-
         <WorkPlaces />
         <MyBuilds />
         <MoreProjects />

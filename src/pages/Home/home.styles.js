@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
       justifyContent: "flex-end",
       alignItems: "center",
 
-      [theme.breakpoints.down("xl")]: {
+      [theme.breakpoints.down("sm")]: {
         display: "none",
       },
     },

@@ -292,7 +292,7 @@ export const useStyles = makeStyles((theme) => ({
   rtl: {
     flexDirection: "row-reverse",
 
-    [theme.breakpoints.down("xl")]: {
+    [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
     },
 
