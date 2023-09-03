@@ -60,7 +60,6 @@ export const useStyles = makeStyles((theme) => ({
         right: "-15px",
         top: "0px",
         fontSize: "30px",
-
         alignItems: "center",
         justifyContent: "center",
         cursor: "pointer",
@@ -187,6 +186,11 @@ export const useStyles = makeStyles((theme) => ({
 
             [theme.breakpoints.down("xl")]: {
               fontSize: "14px",
+            },
+
+            [theme.breakpoints.down("sm")]: {
+              fontSize: "26px",
+              margin: "10px 0px",
             },
           },
         },

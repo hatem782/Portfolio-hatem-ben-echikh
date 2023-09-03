@@ -11,6 +11,11 @@ export const useStyles = makeStyles((theme) => ({
       width: "91%",
     },
 
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      padding: "0px 0px 20px 0px",
+    },
+
     "& .big-title": {
       textAlign: "center",
       color: theme.palette.text.light,
@@ -22,6 +27,10 @@ export const useStyles = makeStyles((theme) => ({
       [theme.breakpoints.down("xl")]: {
         fontSize: "35px",
         margin: "0px 0px 5px 0px",
+      },
+
+      [theme.breakpoints.down("sm")]: {
+        fontSize: "26px",
       },
     },
 
@@ -108,6 +117,12 @@ export const useStyles = makeStyles((theme) => ({
       padding: "3% 3%",
     },
 
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      padding: "20px",
+      margin: "0px 0px 20px 0px",
+    },
+
     "& .header-body": {
       width: "100%",
 
@@ -173,6 +188,11 @@ export const useStyles = makeStyles((theme) => ({
           [theme.breakpoints.down("xl")]: {
             fontSize: "23px",
             fontWeight: "500",
+          },
+
+          [theme.breakpoints.down("sm")]: {
+            fontSize: "20px",
+            fontWeight: "400",
           },
         },
 

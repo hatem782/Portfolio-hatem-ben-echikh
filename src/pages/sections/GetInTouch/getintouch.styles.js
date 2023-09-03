@@ -12,6 +12,11 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     flexDirection: "column",
 
+    [theme.breakpoints.down("sm")]: {
+      height: "fit-content",
+      padding: "30px 0px 30px 0px",
+    },
+
     "& .number": {
       textAlign: "center",
       color: theme.palette.primary.main,
@@ -38,6 +43,10 @@ export const useStyles = makeStyles((theme) => ({
       [theme.breakpoints.down("xl")]: {
         fontSize: "60px",
       },
+
+      [theme.breakpoints.down("sm")]: {
+        fontSize: "40px",
+      },
     },
 
     "& .desc": {
@@ -53,6 +62,12 @@ export const useStyles = makeStyles((theme) => ({
         fontWeight: "300",
         margin: "10px 0px 0px 0px",
         width: "60%",
+      },
+
+      [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        fontSize: "20px",
+        // textAlign: "justify",
       },
     },
 

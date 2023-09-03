@@ -11,6 +11,11 @@ export const useStyles = makeStyles((theme) => ({
       width: "90%",
     },
 
+    [theme.breakpoints.down("sm")]: {
+      padding: "40px 0px",
+      width: "100%",
+    },
+
     "& .works": {
       width: "100%",
       padding: "0px 0px 0px 0px",
@@ -30,6 +35,12 @@ export const useStyles = makeStyles((theme) => ({
       height: "400px",
     },
 
+    [theme.breakpoints.down("sm")]: {
+      height: "fit-content",
+      flexDirection: "column",
+      margin: "50px 0px 50px 0px",
+    },
+
     "& .left": {
       width: "60%",
       height: "100%",
@@ -37,6 +48,11 @@ export const useStyles = makeStyles((theme) => ({
       position: "relative",
       borderRadius: "6px",
       overflow: "hidden",
+
+      [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        overflow: "visible",
+      },
 
       "& img": {
         width: "100%",
@@ -65,6 +81,13 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       right: "0px",
 
+      [theme.breakpoints.down("sm")]: {
+        width: "100%",
+        position: "relative",
+        backgroundColor: "#102241",
+        padding: "10px 20px 30px 20px",
+      },
+
       "& h1": {
         textAlign: "right",
         color: theme.palette.text.light,
@@ -81,6 +104,12 @@ export const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down("xl")]: {
           fontSize: "28px",
           top: "-20px",
+        },
+
+        [theme.breakpoints.down("sm")]: {
+          position: "relative",
+          top: "auto",
+          textAlign: "left",
         },
       },
 
@@ -99,6 +128,12 @@ export const useStyles = makeStyles((theme) => ({
           fontSize: "18px",
           top: "-55px",
         },
+
+        [theme.breakpoints.down("sm")]: {
+          position: "relative",
+          top: "auto",
+          textAlign: "left",
+        },
       },
 
       "& p": {
@@ -115,6 +150,12 @@ export const useStyles = makeStyles((theme) => ({
 
         [theme.breakpoints.down("xl")]: {
           fontSize: "20px",
+        },
+
+        [theme.breakpoints.down("sm")]: {
+          textAlign: "justify",
+          margin: "0px 0px",
+          padding: "10px 0px",
         },
 
         "& span": {
@@ -159,6 +200,13 @@ export const useStyles = makeStyles((theme) => ({
           bottom: "-10px",
         },
 
+        [theme.breakpoints.down("sm")]: {
+          position: "relative",
+          top: "auto",
+          justifyContent: "center",
+          flexWrap: "wrap",
+        },
+
         "& span": {
           color: theme.palette.text.light,
           fontSize: "15px",
@@ -171,6 +219,11 @@ export const useStyles = makeStyles((theme) => ({
 
           [theme.breakpoints.down("xl")]: {
             fontSize: "14px",
+          },
+
+          [theme.breakpoints.down("sm")]: {
+            display: "block",
+            margin: "5px 10px",
           },
 
           "&:hover": {
@@ -189,6 +242,14 @@ export const useStyles = makeStyles((theme) => ({
 
         [theme.breakpoints.down("xl")]: {
           bottom: "-60px",
+        },
+
+        [theme.breakpoints.down("sm")]: {
+          // position: "relative",
+          top: "0px",
+          bottom: "auto",
+          right: "20px",
+          margin: "20px 0px 0px 0px",
         },
 
         "& img": {
@@ -231,8 +292,17 @@ export const useStyles = makeStyles((theme) => ({
   rtl: {
     flexDirection: "row-reverse",
 
+    [theme.breakpoints.down("xl")]: {
+      flexDirection: "column",
+    },
+
     "& .right": {
       left: "0px",
+
+      [theme.breakpoints.down("sm")]: {
+        right: "0px",
+        left: "auto",
+      },
 
       "& h1": {
         textAlign: "left",
@@ -252,8 +322,17 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: "flex-start",
         left: "0px",
 
+        [theme.breakpoints.down("sm")]: {
+          justifyContent: "center",
+        },
+
         "& span": {
           margin: "0px 20px 0px 0px",
+
+          [theme.breakpoints.down("sm")]: {
+            display: "block",
+            margin: "5px 10px",
+          },
         },
       },
 
@@ -261,8 +340,17 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: "flex-start",
         left: "0px",
 
+        [theme.breakpoints.down("sm")]: {
+          left: "auto",
+          right: "20px",
+        },
+
         "& img": {
           margin: "0px 20px 0px 0px",
+
+          [theme.breakpoints.down("sm")]: {
+            margin: "0px 0px 0px 20px",
+          },
         },
       },
     },
