@@ -3,6 +3,7 @@ import { useStyles } from "./getintouch.styles";
 import TitlePart from "../../../components/TitlePart/TitlePart";
 
 import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton";
+import { ContactMe } from "../../../functions/contact_me";
 
 function GetInTouch() {
   const styles = useStyles();
@@ -21,7 +22,7 @@ function GetInTouch() {
       </p>
 
       <div className="btn-more">
-        <OutlinedButton>Say Hello</OutlinedButton>
+        <OutlinedButton onClick={ContactMe}>Say Hello</OutlinedButton>
       </div>
     </div>
   );

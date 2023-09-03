@@ -1,10 +1,15 @@
 import React from "react";
 import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton";
-
 import { useStyles } from "./globalinfo.styles";
+import my_resume from "../../../assets/pdf/hatem-ben-echikh.pdf";
 
 function Globalinfo() {
   const styles = useStyles();
+
+  const handle_download_cv = () => {
+    window.open(my_resume, "_blank");
+  };
+
   return (
     <section className={styles.main}>
       <div>
@@ -17,7 +22,7 @@ function Globalinfo() {
           Currently, I’m a <span className="important">freelancer</span> and i
           am looking for a new opportunitys to work as a part-time web developer
         </p>
-        <OutlinedButton>My Resume</OutlinedButton>
+        <OutlinedButton onClick={handle_download_cv}>My Resume</OutlinedButton>
       </div>
     </section>
   );

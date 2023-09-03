@@ -3,6 +3,9 @@ import { useOnScroll } from "../../hooks/useOnScroll";
 import { useStyles } from "./navbar.styles";
 import logo from "../../assets/logo/normal.svg";
 import OutlinedButton from "../../components/buttons/OutlinedButton/OutlinedButton";
+
+import my_resume from "../../assets/pdf/hatem-ben-echikh.pdf";
+
 function NavBar() {
   const styles = useStyles();
   let shrink = useOnScroll(20);
@@ -11,6 +14,10 @@ function NavBar() {
 
   const handle_open = () => {
     setopen(!open);
+  };
+
+  const handle_download_cv = () => {
+    window.open(my_resume, "_blank");
   };
 
   const sections = ["About", "Experience", "Work", "Contact"];
@@ -32,7 +39,7 @@ function NavBar() {
               );
             })}
           </div>
-          <OutlinedButton>Resume</OutlinedButton>
+          <OutlinedButton onClick={handle_download_cv}>Resume</OutlinedButton>
         </div>
 
         <div
