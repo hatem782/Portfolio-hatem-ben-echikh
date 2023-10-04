@@ -31,6 +31,7 @@ export const useStyles = makeStyles((theme) => ({
           fontSize: "22px",
           lineHeight: "1.4",
           fontWeight: "300",
+          textAlign: "justify",
 
           [theme.breakpoints.down("xl")]: {
             fontSize: "20px",

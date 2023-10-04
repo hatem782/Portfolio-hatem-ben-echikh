@@ -48,6 +48,15 @@ export const useStyles = makeStyles((theme) => ({
     },
     "& .role": {
       color: theme.palette.text.dark,
+      height: "100px",
+
+      [theme.breakpoints.down("xl")]: {
+        height: "80px",
+      },
+
+      [theme.breakpoints.down("md")]: {
+        height: "40px",
+      },
     },
     "& .description": {
       maxWidth: "800px",

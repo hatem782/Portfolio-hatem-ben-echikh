@@ -10,9 +10,10 @@ function About() {
   const styles = useStyles();
   const skills = [
     "JavaScript (ES6+)",
-    "React",
+    "ReactJs",
     "Redux",
     "Next.js",
+    "Angular",
     "Node.js",
     "Socket.io",
     "MongoDB",
@@ -24,21 +25,29 @@ function About() {
       <div className="container">
         <div className="description">
           <p>
-            Hello! My name is Hatem Ben Echikh and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2019 when I decided to make games using just html,css and js to
-            share them with friends
+            As a software engineering student specializing at ISAMM University,
+            I am deeply passionate about the world of technology and software
+            development. My journey as a software engineer has been greatly
+            influenced by my love for creating robust platforms, and my tool of
+            choice is the versatile <span className="imp"> MERN </span> stack,
+            which comprises MongoDB, Express.js, React.js, and Node.js.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at
-            Orenda (a club in my university) ... a start-up, a huge corporation,
-            and a student-led design studio. My main focus these days is
-            building accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            Over the past two years, I have had the privilege of gaining
+            hands-on experience through freelancing and internships with
+            reputable startups such as <span className="imp">Pikoro</span>,{" "}
+            <span className="imp">Qramer</span>, and{" "}
+            <span className="imp">Xsustain</span>. These opportunities have
+            exposed me to challenging and impactful projects, providing me with
+            valuable insights into the industry.
           </p>
           <p>
-            I also recently launched a course that covers everything you need to
-            build a web app with the Spotify API using Node & React.
+            One aspect of software development that truly ignites my enthusiasm
+            is crafting <span className="imp">complex UI</span> platforms. I
+            find immense satisfaction in intergating user interfaces that not
+            only meet but exceed user expectations. This passion drives me to
+            continuously improve my skills and explore innovative approaches to
+            front-end technologies.
           </p>
           <p>Here are a few technologies I’ve been working with recently : </p>
           <ul className="skills">

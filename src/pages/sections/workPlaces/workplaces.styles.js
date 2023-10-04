@@ -169,6 +169,11 @@ export const useStyles = makeStyles((theme) => ({
         listStyleType: "none",
         padding: "0px",
 
+        "& a": {
+          textDecoration: "none",
+          color: theme.palette.primary.main,
+        },
+
         [theme.breakpoints.down("xl")]: {
           fontSize: "20px",
         },

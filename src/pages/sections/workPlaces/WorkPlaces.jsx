@@ -6,7 +6,7 @@ import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import CloseIcon from "@mui/icons-material/Close";
 
 function WorkPlaces() {
-  const [current, setcurrent] = useState(WhereWorked[0]);
+  const [current, setcurrent] = useState(WhereWorked[1]);
   const [opened, setOpened] = useState(false);
   const handle_switch = () => {
     setOpened(!opened);
@@ -54,7 +54,8 @@ function WorkPlaces() {
               {current.content.done.map((item, key) => {
                 return (
                   <li key={key}>
-                    <span className="point">▹</span> {item}
+                    <span className="point">▹</span>{" "}
+                    <span dangerouslySetInnerHTML={{ __html: item }}></span>
                   </li>
                 );
               })}
