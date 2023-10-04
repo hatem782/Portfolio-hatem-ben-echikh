@@ -5,7 +5,7 @@ export const useStyles = makeStyles((theme) => ({
     padding: "50px 0px",
     width: "100%",
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       padding: "30px 0px",
     },
 
@@ -15,14 +15,14 @@ export const useStyles = makeStyles((theme) => ({
       alignItems: "flex-start",
       justifyContent: "space-between",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         flexDirection: "column-reverse",
       },
 
       "& .description": {
         width: "65%",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           width: "100%",
         },
 
@@ -36,7 +36,7 @@ export const useStyles = makeStyles((theme) => ({
             fontSize: "20px",
           },
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             textAlign: "justify",
           },
         },
@@ -58,7 +58,7 @@ export const useStyles = makeStyles((theme) => ({
             fontSize: "18px",
           },
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             width: "100%",
             fontSize: "20px",
           },
@@ -67,7 +67,7 @@ export const useStyles = makeStyles((theme) => ({
             width: "33%",
             color: theme.palette.text.dark,
 
-            [theme.breakpoints.down("sm")]: {
+            [theme.breakpoints.down("md")]: {
               width: "50%",
               margin: "3px 0px",
             },
@@ -80,7 +80,7 @@ export const useStyles = makeStyles((theme) => ({
                 fontSize: "14px",
               },
 
-              [theme.breakpoints.down("sm")]: {
+              [theme.breakpoints.down("md")]: {
                 fontSize: "20px",
               },
             },
@@ -91,7 +91,7 @@ export const useStyles = makeStyles((theme) => ({
         width: "35%",
         padding: "0px 0px 0px 20px",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           width: "80%",
           padding: "0px",
           margin: "20px auto",
@@ -124,7 +124,7 @@ export const useStyles = makeStyles((theme) => ({
             transform: "translate(20px, 20px)",
             transition: "all 0.2s",
 
-            [theme.breakpoints.down("sm")]: {
+            [theme.breakpoints.down("md")]: {
               transform: "translate(15px, 15px)",
             },
           },

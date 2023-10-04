@@ -29,7 +29,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "30px",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         fontSize: "24px",
         margin: "0px 5px",
       },
@@ -40,7 +40,7 @@ export const useStyles = makeStyles((theme) => ({
       backgroundColor: "#233554",
       transform: "translateY(-3px)",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         flexGrow: "1",
         width: "auto",
       },

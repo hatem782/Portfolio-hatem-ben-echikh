@@ -9,7 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     flexDirection: "column",
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       padding: "100px 0px 30px 0px",
       height: "fit-content",
     },
@@ -27,7 +27,7 @@ export const useStyles = makeStyles((theme) => ({
         marginBottom: "30px",
       },
 
-      [theme.breakpoints.down("sm")]: {},
+      [theme.breakpoints.down("md")]: {},
     },
     "& h1": {
       fontSize: "100px",
@@ -39,7 +39,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "80px",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         fontSize: "40px",
       },
     },
@@ -62,7 +62,7 @@ export const useStyles = makeStyles((theme) => ({
         maxWidth: "540px",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         textAlign: "justify",
       },
 
@@ -80,7 +80,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "14px",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         margin: "10px auto",
         display: "block",
         padding: "18px 26px",

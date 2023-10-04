@@ -19,7 +19,7 @@ export const useStyles = makeStyles((theme) => ({
       height: "70px",
     },
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       padding: "10px 20px",
     },
 
@@ -46,7 +46,7 @@ export const useStyles = makeStyles((theme) => ({
       padding: "13px 0px",
       position: "relative",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         display: "flex",
 
         "& span": {
@@ -99,7 +99,7 @@ export const useStyles = makeStyles((theme) => ({
       display: "flex",
       alignItems: "center",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         height: "100vh",
         width: "70%",
         position: "absolute",
@@ -125,7 +125,7 @@ export const useStyles = makeStyles((theme) => ({
         alignItems: "center",
         justifyContent: "center",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           flexDirection: "column",
         },
 
@@ -141,7 +141,7 @@ export const useStyles = makeStyles((theme) => ({
             lineHeight: "17px",
           },
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             fontSize: "20px !important",
             textAlign: "center",
             lineHeight: "1",
@@ -162,7 +162,7 @@ export const useStyles = makeStyles((theme) => ({
             margin: "0px 15px",
           },
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             margin: "5vh 0px",
           },
         },
@@ -187,7 +187,7 @@ export const useStyles = makeStyles((theme) => ({
         fontWeight: "300",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         margin: "5vh auto",
         padding: "15px 30px",
         fontSize: "16px",

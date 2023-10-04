@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     flexDirection: "column",
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       height: "fit-content",
       padding: "30px 0px 30px 0px",
     },
@@ -44,7 +44,7 @@ export const useStyles = makeStyles((theme) => ({
         fontSize: "60px",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         fontSize: "40px",
       },
     },
@@ -64,7 +64,7 @@ export const useStyles = makeStyles((theme) => ({
         width: "60%",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         width: "100%",
         fontSize: "20px",
         // textAlign: "justify",

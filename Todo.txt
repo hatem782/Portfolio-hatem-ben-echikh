@@ -1,0 +1,5 @@
+make a code related to firebase
+that detect the number of users those who opened your portfolio
+and how much time they spend in it 
+make a random names to recognize them
+save name in localstorage

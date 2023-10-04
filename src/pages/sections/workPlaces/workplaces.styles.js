@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "relative",
     },
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       padding: "75px 0px",
       width: "100%",
     },
@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
         margin: "60px 0px 0px 0px",
       },
 
-      [theme.breakpoints.down("sm")]: {},
+      [theme.breakpoints.down("md")]: {},
     },
 
     "& .left": {
@@ -34,7 +34,7 @@ export const useStyles = makeStyles((theme) => ({
       height: "fit-content",
       borderLeft: "2px solid #233554",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         width: "fit-content",
         position: "absolute",
         backgroundColor: "#102241",
@@ -72,7 +72,7 @@ export const useStyles = makeStyles((theme) => ({
           fontSize: "20px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           display: "flex",
         },
       },
@@ -93,7 +93,7 @@ export const useStyles = makeStyles((theme) => ({
           fontSize: "18px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           width: "100%",
         },
 
@@ -130,7 +130,7 @@ export const useStyles = makeStyles((theme) => ({
       opacity: "0",
       animation: "FadeOut 0.2s linear 0s forwards",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         width: "100%",
       },
 
@@ -173,7 +173,7 @@ export const useStyles = makeStyles((theme) => ({
           fontSize: "20px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           textAlign: "justify",
         },
 
@@ -188,7 +188,7 @@ export const useStyles = makeStyles((theme) => ({
               fontSize: "14px",
             },
 
-            [theme.breakpoints.down("sm")]: {
+            [theme.breakpoints.down("md")]: {
               fontSize: "26px",
               margin: "10px 0px",
             },

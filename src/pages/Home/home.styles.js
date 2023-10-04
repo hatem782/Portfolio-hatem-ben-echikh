@@ -12,7 +12,7 @@ export const useStyles = makeStyles((theme) => ({
     "& .main-part": {
       flexGrow: "1",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         padding: "20px",
       },
     },
@@ -26,7 +26,7 @@ export const useStyles = makeStyles((theme) => ({
       justifyContent: "flex-end",
       alignItems: "center",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         display: "none",
       },
     },

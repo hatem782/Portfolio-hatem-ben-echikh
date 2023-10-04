@@ -11,7 +11,7 @@ export const useStyles = makeStyles((theme) => ({
       width: "90%",
     },
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       padding: "40px 0px",
       width: "100%",
     },
@@ -35,7 +35,7 @@ export const useStyles = makeStyles((theme) => ({
       height: "400px",
     },
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       height: "fit-content",
       flexDirection: "column",
       margin: "50px 0px 50px 0px",
@@ -49,7 +49,7 @@ export const useStyles = makeStyles((theme) => ({
       borderRadius: "6px",
       overflow: "hidden",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         width: "100%",
         overflow: "visible",
       },
@@ -81,7 +81,7 @@ export const useStyles = makeStyles((theme) => ({
       position: "absolute",
       right: "0px",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         width: "100%",
         position: "relative",
         backgroundColor: "#102241",
@@ -106,7 +106,7 @@ export const useStyles = makeStyles((theme) => ({
           top: "-20px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           position: "relative",
           top: "auto",
           textAlign: "left",
@@ -129,7 +129,7 @@ export const useStyles = makeStyles((theme) => ({
           top: "-55px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           position: "relative",
           top: "auto",
           textAlign: "left",
@@ -152,7 +152,7 @@ export const useStyles = makeStyles((theme) => ({
           fontSize: "20px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           textAlign: "justify",
           margin: "0px 0px",
           padding: "10px 0px",
@@ -200,7 +200,7 @@ export const useStyles = makeStyles((theme) => ({
           bottom: "-10px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           position: "relative",
           top: "auto",
           justifyContent: "center",
@@ -221,7 +221,7 @@ export const useStyles = makeStyles((theme) => ({
             fontSize: "14px",
           },
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             display: "block",
             margin: "5px 10px",
           },
@@ -244,7 +244,7 @@ export const useStyles = makeStyles((theme) => ({
           bottom: "-60px",
         },
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           // position: "relative",
           top: "0px",
           bottom: "auto",
@@ -292,14 +292,14 @@ export const useStyles = makeStyles((theme) => ({
   rtl: {
     flexDirection: "row-reverse",
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       flexDirection: "column",
     },
 
     "& .right": {
       left: "0px",
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         right: "0px",
         left: "auto",
       },
@@ -322,14 +322,14 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: "flex-start",
         left: "0px",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           justifyContent: "center",
         },
 
         "& span": {
           margin: "0px 20px 0px 0px",
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             display: "block",
             margin: "5px 10px",
           },
@@ -340,7 +340,7 @@ export const useStyles = makeStyles((theme) => ({
         justifyContent: "flex-start",
         left: "0px",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down("md")]: {
           left: "auto",
           right: "20px",
         },
@@ -348,7 +348,7 @@ export const useStyles = makeStyles((theme) => ({
         "& img": {
           margin: "0px 20px 0px 0px",
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             margin: "0px 0px 0px 20px",
           },
         },

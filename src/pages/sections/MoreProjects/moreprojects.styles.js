@@ -11,7 +11,7 @@ export const useStyles = makeStyles((theme) => ({
       width: "91%",
     },
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       width: "100%",
       padding: "0px 0px 20px 0px",
     },
@@ -29,7 +29,7 @@ export const useStyles = makeStyles((theme) => ({
         margin: "0px 0px 5px 0px",
       },
 
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down("md")]: {
         fontSize: "26px",
       },
     },
@@ -117,7 +117,7 @@ export const useStyles = makeStyles((theme) => ({
       padding: "3% 3%",
     },
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       width: "100%",
       padding: "20px",
       margin: "0px 0px 20px 0px",
@@ -190,7 +190,7 @@ export const useStyles = makeStyles((theme) => ({
             fontWeight: "500",
           },
 
-          [theme.breakpoints.down("sm")]: {
+          [theme.breakpoints.down("md")]: {
             fontSize: "20px",
             fontWeight: "400",
           },
