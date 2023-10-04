@@ -14,7 +14,7 @@ function WorkPlaces() {
 
   const styles = useStyles();
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="Experience">
       <TitlePart num={"02."}>Where I’ve Worked</TitlePart>
       <div className="container">
         <div className={`left ${opened && "opened-left"}`}>

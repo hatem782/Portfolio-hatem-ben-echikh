@@ -20,7 +20,7 @@ function About() {
     "Firebase",
   ];
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="About">
       <TitlePart num={"01."}>About Me</TitlePart>
       <div className="container">
         <div className="description">

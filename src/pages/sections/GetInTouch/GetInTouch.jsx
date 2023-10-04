@@ -9,7 +9,7 @@ function GetInTouch() {
   const styles = useStyles();
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="Contact">
       <span href="https://www.google.com" className="number">
         04. What’s Next?
       </span>

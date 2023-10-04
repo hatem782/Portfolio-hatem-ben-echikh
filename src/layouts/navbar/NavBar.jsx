@@ -3,7 +3,7 @@ import { useOnScroll } from "../../hooks/useOnScroll";
 import { useStyles } from "./navbar.styles";
 import logo from "../../assets/logo/normal.svg";
 import OutlinedButton from "../../components/buttons/OutlinedButton/OutlinedButton";
-
+import { Link } from "react-scroll";
 import my_resume from "../../assets/pdf/hatem-ben-echikh.pdf";
 
 function NavBar() {
@@ -32,10 +32,17 @@ function NavBar() {
           <div className="sections">
             {sections.map((section, index) => {
               return (
-                <a key={index}>
+                <Link
+                  key={index}
+                  to={section}
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={1000}
+                >
                   <span>{`0${index + 1}.`}</span>
                   {section}
-                </a>
+                </Link>
               );
             })}
           </div>

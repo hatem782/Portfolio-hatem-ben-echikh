@@ -13,7 +13,7 @@ function MyBuilds() {
   const styles = useStyles();
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id="Work">
       <TitlePart num={"03."}>Some Things I’ve Built</TitlePart>
       <div className="works">
         {my_builds.map((work, index) => {
