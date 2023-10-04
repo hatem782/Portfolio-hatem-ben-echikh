@@ -145,8 +145,9 @@ export const useStyles = makeStyles((theme) => ({
           margin: "0px 0px",
         },
 
-        "& span": {
+        "& a": {
           color: theme.palette.primary.main,
+          textDecoration: "none",
         },
       },
 

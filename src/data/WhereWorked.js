@@ -18,10 +18,9 @@ export const WhereWorked = [
     title: `Xsustain`,
     content: {
       position: `Full Stack JS`,
-      company: `@ Xsustain`,
+      company: `@Xsustain`,
       companyLink: `https://www.linkedin.com/company/xsustain/`,
-      time: `Oct 2022 - Sep 2023`,
-      // vibeviews 1 2 3 / TubeScript / Success Study / Rise
+      time: `May 2022 - Sep 2023`,
       done: [
         `Developped a web application <a href ="http://154.62.108.103/" target="_blank" > Rise </a> to help users to find the best job for them and companies to find the best employees.`,
         `Integrated APIs and created a dashboard for the platform <a href ="https://www.successtudy.net/" target="_blank" > Success Study </a> to help students to find the best university for them and universities to find the best students.`,
@@ -33,26 +32,26 @@ export const WhereWorked = [
   {
     title: `Freelance Pal-Forum`,
     content: {
-      position: `Creative Technologist Co-op`,
-      company: `@ MullenLowe`,
-      time: `July - December 2015`,
+      position: `Freelance as web Developer for`,
+      company: `@Saheb Taba Association`,
+      time: `Sep 2021 - Dec 2022`,
+      companyLink: `https://www.facebook.com/profile.php?id=100064795743882`,
       done: [
-        `Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery`,
-        `Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness`,
-        `Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more`,
+        `Developped a web application <a href ="https://palestine-forum.com/home" target="_blank" >Palestine-Forum</a> to help the club to present their activities and events.`,
+        `Creation of a dashboard to manage the content of the website like Histories, Blogs, Events and Galeries.`,
       ],
     },
   },
   {
     title: `Qramer`,
     content: {
-      position: `Developer`,
-      company: `@ Scout Studio`,
+      position: `Summer Internship`,
+      company: `@Qramer`,
       companyLink: `https://www.linkedin.com/company/qramer/`,
-      time: `Spring 2016 & 2017`,
+      time: `Summer 2022`,
       done: [
-        `Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community`,
-        `Built and delivered technical solutions according to stakeholder business requirements`,
+        `Collaborated with the team of Qramer to develop a web application <a href ="https://www.qramer.com/" target="_blank" > Qramer </a> to ensure a place for students, teachers, schools and universities to communicate and share their knowledge and experiences.`,
+        `I had the task of developing the blogs section of the website, and the process of selling and buying courses.`,
       ],
     },
   },
@@ -60,14 +59,14 @@ export const WhereWorked = [
   {
     title: `Pikoro`,
     content: {
-      position: `Software Engineer Co-op`,
-      company: `@ Starry`,
+      position: `Software Developer`,
+      company: `@Pikoro`,
       companyLink: `https://www.linkedin.com/company/pikoro/`,
-      time: `July - December 2016`,
+      time: `Jun 2021 - December 2022`,
       done: [
-        `Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS`,
-        `Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router`,
-        `Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps`,
+        `Created and maintained a website for the company <a href ="https://pikoro.netlify.app/" target="_blank" > Pikoro </a> using React NodeJs`,
+        `Developed a platform <a href ="https://weshield2.netlify.app/" target="_blank" > WeShield </a> to help users to find specialists in psychology and psychiatry.`,
+        `Management of the website <a href ="https://www.samychaffai.com" target="_blank" > Samy Chaffai </a> the content creator.`,
       ],
     },
   },

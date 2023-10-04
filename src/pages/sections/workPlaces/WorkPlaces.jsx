@@ -6,7 +6,7 @@ import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import CloseIcon from "@mui/icons-material/Close";
 
 function WorkPlaces() {
-  const [current, setcurrent] = useState(WhereWorked[1]);
+  const [current, setcurrent] = useState(WhereWorked[0]);
   const [opened, setOpened] = useState(false);
   const handle_switch = () => {
     setOpened(!opened);
@@ -46,7 +46,10 @@ function WorkPlaces() {
         {current && (
           <div className="right" key={current.content.time}>
             <h1>
-              {current.content.position} <span>{current.content.company}</span>
+              {current.content.position}{" "}
+              <a href={current.content.companyLink} target="_blanl">
+                {current.content.company}
+              </a>
             </h1>
             <p>{current.content.time}</p>
 
