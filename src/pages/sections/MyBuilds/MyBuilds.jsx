@@ -47,16 +47,18 @@ const WorkCard = ({ orient = "ltr", work }) => {
         <p dangerouslySetInnerHTML={{ __html: work.description }}></p>
 
         <div className="techs">
-          <span>VS Code</span>
-          <span>Sublime Text</span>
-          <span>Atom</span>
-          <span>iTerm2</span>
-          <span>Hyper</span>
+          {work.techs.map((tech, index) => {
+            return <span key={index}>{tech}</span>;
+          })}
         </div>
 
         <div className="icons">
-          <img src={github_icon} alt="" className="git" />
-          <img src={extern_icon} alt="" className="ext" />
+          {work.github_url && <img src={github_icon} alt="" className="git" />}
+          {work.live_url && (
+            <a href={work.live_url} target="_blank">
+              <img src={extern_icon} alt="" className="ext" />
+            </a>
+          )}
         </div>
       </div>
     </div>

@@ -16,9 +16,9 @@ function GetInTouch() {
       <h1 className="big-title">Get In Touch</h1>
 
       <p className="desc">
-        Although I’m not currently looking for any new opportunities, my inbox
-        is always open. Whether you have a question or just want to say hi, I’ll
-        try my best to get back to you!
+        Currently I am looking for a final year internship, my inbox is always
+        open. Whether you have a question or just want to say hi, I’ll try my
+        best to get back to you!
       </p>
 
       <div className="btn-more">
