@@ -7,6 +7,8 @@ import img from "../../../assets/images/temp/halcyon.avif";
 import github_icon from "../../../assets/svgs/GitHub-1.svg";
 import extern_icon from "../../../assets/svgs/External Link.svg";
 
+import { my_builds } from "../../../data/MyBuilds.js";
+
 function MyBuilds() {
   const styles = useStyles();
 
@@ -14,34 +16,35 @@ function MyBuilds() {
     <div className={styles.main}>
       <TitlePart num={"03."}>Some Things I’ve Built</TitlePart>
       <div className="works">
-        <WorkCard orient="ltr" />
-        <WorkCard orient="rtl" />
-        <WorkCard orient="ltr" />
+        {my_builds.map((work, index) => {
+          return (
+            <WorkCard
+              key={index}
+              work={work}
+              orient={index % 2 === 0 ? "ltr" : "rtl"}
+            />
+          );
+        })}
       </div>
     </div>
   );
 }
 
-const WorkCard = ({ orient = "ltr" }) => {
+const WorkCard = ({ orient = "ltr", work }) => {
   const styles = useStyles();
 
   return (
     <div className={`${styles.card} ${styles[orient]}`}>
       <div className="left">
-        <img src={img} alt="" />
+        <img src={work.image_url} alt="" />
         <div className="filter" />
         <div className="filter2" />
       </div>
       <div className="right">
-        <h2>Featured Project</h2>
-        <h1>Halcyon Theme</h1>
+        <h2>{work.company}</h2>
+        <h1>{work.name}</h1>
 
-        <p>
-          A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and
-          more. Available on <span> Visual Studio Marketplace </span>,{" "}
-          <span>Package Control</span>, <span>Atom Package Manager</span>, and{" "}
-          <span>npm</span>.
-        </p>
+        <p dangerouslySetInnerHTML={{ __html: work.description }}></p>
 
         <div className="techs">
           <span>VS Code</span>

@@ -13,9 +13,9 @@ function MoreProjects() {
   return (
     <div className={styles.main}>
       <h1 className="big-title">Other Noteworthy Projects</h1>
-      <a href="https://www.google.com" className="big-link">
+      {/* <a href="https://www.google.com" className="big-link">
         view the archive
-      </a>
+      </a> */}
       <div className="works">
         <WorkCard />
         <WorkCard />
