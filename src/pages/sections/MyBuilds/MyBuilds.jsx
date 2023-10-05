@@ -32,10 +32,13 @@ function MyBuilds() {
 
 const WorkCard = ({ orient = "ltr", work }) => {
   const styles = useStyles();
+  const gotowebsite = () => {
+    window.open(work.live_url, "_blank");
+  };
 
   return (
     <div className={`${styles.card} ${styles[orient]}`}>
-      <div className="left">
+      <div className="left" onClick={gotowebsite}>
         <img src={work.image_url} alt="" />
         <div className="filter" />
         <div className="filter2" />

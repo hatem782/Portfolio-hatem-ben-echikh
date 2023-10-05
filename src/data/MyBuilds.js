@@ -32,7 +32,7 @@ export const my_builds = [
     image_url: rise_img,
     techs: ["React", "RTQ", "Toolkit", "Formik", "Node", "MongoDB"],
     github_url: null,
-    live_url: "http://154.62.108.103",
+    live_url: "https://www.risetalent.org/",
   },
   {
     company: "Freelance",
