@@ -8,9 +8,25 @@ import extern_icon from "../../../assets/svgs/External Link.svg";
 import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton";
 
 import { data } from "../../../data/MoreWorks.js";
+import { set } from "date-fns";
+import { fi } from "date-fns/locale";
 
 function MoreProjects() {
   const styles = useStyles();
+  let first6 = data.slice(0, 6);
+  let rest = data.slice(6);
+  let [works, setWorks] = React.useState([...first6]);
+  let [showMore, setShowMore] = React.useState(true);
+
+  const AddMore = () => {
+    if (works.length === 6) {
+      setWorks([...first6, ...rest]);
+      setShowMore(false);
+    } else {
+      setWorks([...first6]);
+      setShowMore(true);
+    }
+  };
 
   return (
     <div className={styles.main}>
@@ -19,13 +35,15 @@ function MoreProjects() {
         view the archive
       </a> */}
       <div className="works">
-        {data.map((work, index) => {
+        {works.map((work, index) => {
           return <WorkCard key={index} work={work} />;
         })}
       </div>
 
       <div className="btn-more">
-        <OutlinedButton>Show More</OutlinedButton>
+        <OutlinedButton onClick={AddMore}>
+          {showMore ? "Show More" : "Show Less"}
+        </OutlinedButton>
       </div>
     </div>
   );

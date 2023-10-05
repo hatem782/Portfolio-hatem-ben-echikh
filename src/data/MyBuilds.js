@@ -4,6 +4,7 @@ import pal_img from "../assets/images/pal.jpg";
 import wesh_img from "../assets/images/weshield.jpg";
 import pick_img from "../assets/images/pikoro.jpg";
 import vibe_img from "../assets/images/vibe.jpg";
+import samy_img from "../assets/images/samy.jpg";
 
 export const my_builds = [
   {
@@ -86,5 +87,14 @@ export const my_builds = [
     techs: ["React", "Redux", "Material-ui", "Jwt"],
     github_url: null,
     live_url: "https://pikoro.netlify.app",
+  },
+  {
+    company: "Pikoro",
+    name: "Sami Shaffai Website",
+    description: `A website for the content creator Sami Shaffai to showcase his <span>videos</span>, <span>partners</span> and to get <span>contacts</span>.`,
+    image_url: samy_img,
+    techs: ["Html", "Css", "Js", "Ovh"],
+    github_url: null,
+    live_url: "https://www.samychaffai.com/",
   },
 ];
