@@ -208,7 +208,7 @@ export const useStyles = makeStyles((theme) => ({
 
           "& span": {
             color: theme.palette.primary.main,
-            fontWeight: "300",
+            fontWeight: "400",
           },
         },
       },

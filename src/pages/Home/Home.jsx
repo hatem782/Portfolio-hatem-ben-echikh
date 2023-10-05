@@ -22,7 +22,7 @@ function Home() {
         <About />
         <WorkPlaces />
         <MyBuilds />
-        {/* <MoreProjects /> */}
+        <MoreProjects />
         <GetInTouch />
       </div>
       <div className="right-part">

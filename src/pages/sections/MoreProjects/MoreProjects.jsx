@@ -7,6 +7,8 @@ import github_icon from "../../../assets/svgs/GitHub-1.svg";
 import extern_icon from "../../../assets/svgs/External Link.svg";
 import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton";
 
+import { data } from "../../../data/MoreWorks.js";
+
 function MoreProjects() {
   const styles = useStyles();
 
@@ -17,12 +19,9 @@ function MoreProjects() {
         view the archive
       </a> */}
       <div className="works">
-        <WorkCard />
-        <WorkCard />
-        <WorkCard />
-        <WorkCard />
-        <WorkCard />
-        <WorkCard />
+        {data.map((work, index) => {
+          return <WorkCard key={index} work={work} />;
+        })}
       </div>
 
       <div className="btn-more">
@@ -42,28 +41,34 @@ const WorkCard = ({ work }) => {
           <img src={folder_icon} alt="" className="folder-icon" />
 
           <div className="links">
-            <img src={github_icon} alt="" className="git-icon" />
-            <img src={extern_icon} alt="" className="lnk-icon" />
+            {work.github && (
+              <a href={work.github} target="_blank">
+                <img src={github_icon} alt="" className="git-icon" />
+              </a>
+            )}
+
+            {work.link && (
+              <a href={work.link} target="_blank">
+                <img src={extern_icon} alt="" className="lnk-icon" />
+              </a>
+            )}
           </div>
         </div>
 
         <div className="body">
-          <h1 className="title">
-            Integrating Algolia Search with WordPress Multisite
-          </h1>
-          <p className="desc">
-            Building a custom multisite compatible WordPress plugin to build
-            global search with Algolia
-          </p>
+          <h1 className="title">{work.title}</h1>
+          <p
+            className="desc"
+            dangerouslySetInnerHTML={{ __html: work.description }}
+          ></p>
 
           <div className="techs"></div>
         </div>
       </div>
       <div className="footer">
-        <span>Next.js</span>
-        <span>Chart.js</span>
-        <span>GitHub</span>
-        <span>API</span>
+        {work.techs.map((tech, index) => {
+          return <span key={index}>{tech}</span>;
+        })}
       </div>
     </div>
   );
