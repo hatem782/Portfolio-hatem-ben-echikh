@@ -13,7 +13,7 @@ function Globalinfo() {
   };
 
   const typeswrites = [
-    "I build things for the web.",
+    "Full Stack Js",
     "Software Engineer.",
     "Freelancer.",
     "ReactJs Developer.",
