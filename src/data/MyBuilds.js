@@ -86,7 +86,7 @@ export const my_builds = [
     image_url: vibe_img,
     techs: ["React", "Redux", "Material-ui", "Jwt"],
     github_url: null,
-    live_url: "https://pikoro.netlify.app",
+    live_url: "https://vibeviews.netlify.app",
   },
   {
     company: "Pikoro",
