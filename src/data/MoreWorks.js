@@ -57,6 +57,14 @@ export const data = [
     techs: ["React.js", "HTML", "CSS"],
   },
   {
+    title: " NodeJs && Mongo && Docker",
+    description:
+      "This is a simple crud with a full configuration of docker and docker-compose",
+    github: "https://github.com/hatem782/nodejs-docker",
+    link: null,
+    techs: ["NodeJs", "MongoDB", "Docker", "Docker-compose"],
+  },
+  {
     title: "Chat App",
     description: `This is a website that I made using <span>Android Studio (java native)</span> and <span>Firebase</span> to create (public / private) rooms and chat with your friends.`,
     github: "https://github.com/FerielBn/Android-App-Chat-Network-",
