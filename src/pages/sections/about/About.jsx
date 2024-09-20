@@ -9,15 +9,21 @@ import { useStyles } from "./about.styles";
 function About() {
   const styles = useStyles();
   const skills = [
-    "JavaScript (ES6+)",
+    "TypeScript (ES6+)",
     "ReactJs",
     "Redux",
     "Next.js",
-    "Angular",
-    "Node.js",
+    "React Native",
+    "NestJs",
+    "Prisma",
+    "Tailwind",
+    "Docker",
+    "Githyb CI/CD",
     "Socket.io",
+    "Node.js",
     "MongoDB",
     "Firebase",
+    "SQL",
   ];
   return (
     <div className={styles.about} id="About">
