@@ -16,10 +16,13 @@ function Globalinfo() {
     "Full Stack Js",
     "Software Engineer.",
     "Freelancer.",
+    "NestJs Developer.",
+    "Game Developer.",
     "ReactJs Developer.",
-    "Angular Developer.",
+    "React Native Developer.",
+    "NextJs Developer.",
     "NodeJs Developer.",
-    "Former && Teacher",
+    "Full Stack Js Former",
   ];
 
   return (
