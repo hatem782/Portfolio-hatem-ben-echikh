@@ -25,17 +25,21 @@ function About() {
       <div className="container">
         <div className="description">
           <p>
-            As a software engineering student specializing at ISAMM University,
-            I am deeply passionate about the world of technology and software
+            As a software engineer with a background from ISAMM University, I am
+            deeply passionate about the world of technology and software
             development. My journey as a software engineer has been greatly
             influenced by my love for creating robust platforms, and my tool of
-            choice is the versatile <span className="imp"> MERN </span> stack,
-            which comprises MongoDB, Express.js, React.js, and Node.js.
+            choice is the versatile <span className="imp"> JS Frameworks </span>{" "}
+            such as <span className="imp">Nextjs</span>,{" "}
+            <span className="imp">Nestjs</span> and{" "}
+            <span className="imp">React Native</span>.
           </p>
           <p>
-            Over the past two years, I have had the privilege of gaining
+            Over the past three years, I have had the privilege of gaining
             hands-on experience through freelancing and internships with
-            reputable startups such as <span className="imp">Pikoro</span>,{" "}
+            reputable startups and companies such as{" "}
+            <span className="imp">CodeCooperation</span>,{" "}
+            <span className="imp">Pikoro</span>,{" "}
             <span className="imp">Qramer</span>, and{" "}
             <span className="imp">Xsustain</span>. These opportunities have
             exposed me to challenging and impactful projects, providing me with

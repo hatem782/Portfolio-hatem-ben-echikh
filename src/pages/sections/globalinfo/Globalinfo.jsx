@@ -31,11 +31,11 @@ function Globalinfo() {
           <TypeWriterComp strings={typeswrites} />
         </h1>
         <p className="description">
-          I’m a software engineer specializing in building exceptional digital
-          experiences using the <span className="important">MERN</span> stack.
-          Currently, I’m a <span className="important">freelancer</span> and i
-          am looking for a{" "}
-          <span className="important"> final year internship</span>.
+          I am a software engineer specializing in creating exceptional digital
+          experiences using the MERN stack. I am actively seeking{" "}
+          <span className="important">new challenges </span>
+          and <span className="important">opportunities</span> that will allow
+          me to expand my skills and deepen my knowledge in the field.
         </p>
         <OutlinedButton onClick={handle_download_cv}>My Resume</OutlinedButton>
       </div>

@@ -1,5 +1,20 @@
 export const WhereWorked = [
   {
+    title: `CodeCooperation`,
+    content: {
+      position: `PFE Internship `,
+      company: `CodeCooperation`,
+      companyLink: `https://www.linkedin.com/company/codecooperation/`,
+      time: `Feb 2024 - Jul 2024`,
+      done: [
+        `I Developped a solution called <a href ="https://kdayes.com" target="_blank" >Kdayes</a>, a platform designed for Tunisian freelancers to manage their invoices with clients.`,
+        `Integrating both frontend and backend using Next.js for the client-side and NestJS for the server-side architecture.`,
+        `Deploying the platform for live use, ensuring scalability and stability.`,
+        `Integrating GitHub CI/CD to automate deployments, ensuring a seamless workflow from code commits to production.`,
+      ],
+    },
+  },
+  {
     title: `Freelance UIK`,
     content: {
       position: `Freelance with `,
