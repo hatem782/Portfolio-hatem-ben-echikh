@@ -1,3 +1,4 @@
+import kdayes_img from "../assets/images/kdayes.png";
 import uik_img from "../assets/images/uik.jpg";
 import rise_img from "../assets/images/rise.jpg";
 import pal_img from "../assets/images/pal.jpg";
@@ -7,6 +8,17 @@ import vibe_img from "../assets/images/vibe.jpg";
 import samy_img from "../assets/images/samy.jpg";
 
 export const my_builds = [
+  {
+    company: "CodeCooperation",
+    name: "Kdayes Platform",
+    description: `
+      A platform designed to help <span> freelancers </span> to manage their invoices seamlessly while enabling their clients to pay online with ease.
+    `,
+    image_url: kdayes_img,
+    techs: ["Nextjs", "Nestjs", "Typescript", "Konnect", "CI/CD"],
+    github_url: null,
+    live_url: "https://kdayes.com/",
+  },
   {
     company: "Freelance",
     name: "UIK Website",
