@@ -10,15 +10,12 @@ function GetInTouch() {
 
   return (
     <div className={styles.main} id="Contact">
-      <span href="https://www.google.com" className="number">
-        04. What’s Next?
-      </span>
+      <span className="number">04. What’s Next?</span>
       <h1 className="big-title">Get In Touch</h1>
 
       <p className="desc">
-        Currently I am looking for a final year internship, my inbox is always
-        open. Whether you have a question or just want to say hi, I’ll try my
-        best to get back to you!
+        My inbox is always open. Whether you have a question or just want to say
+        hi, I’ll try my best to get back to you!
       </p>
 
       <div className="btn-more">
