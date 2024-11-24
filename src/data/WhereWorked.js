@@ -1,5 +1,20 @@
 export const WhereWorked = [
   {
+    title: `Xsustain`,
+    content: {
+      position: `Full Stack JS`,
+      company: `@Xsustain`,
+      companyLink: `https://www.linkedin.com/company/xsustain/`,
+      time: `May 2022 - Present`,
+      done: [
+        `Working as a Full-time Software Engineer specialized in the JavaScript stack, building high-performance e-commerce platforms and custom CRM solutions.`,
+        `Integrated APIs and created a dashboard for the platform <a href ="https://www.successtudy.net/" target="_blank" > Success Study </a> to help students to find the best university for them and universities to find the best students.`,
+        `Developped and styled interactive 3 versions of web applications <a href ="https://vibeviews.netlify.app/" target="_blank" > Vibeviews </a> to collect users feedbacks about new vibes. `,
+        `Creation of the platform <a href ="https://tube-scripter.netlify.app/home" target="_blank" > TubeScript </a> to help users to create a script for their YouTube and Tiktok videos using writesonic.`,
+      ],
+    },
+  },
+  {
     title: `CodeCooperation`,
     content: {
       position: `PFE Internship `,
@@ -29,21 +44,7 @@ export const WhereWorked = [
       ],
     },
   },
-  {
-    title: `Xsustain`,
-    content: {
-      position: `Full Stack JS`,
-      company: `@Xsustain`,
-      companyLink: `https://www.linkedin.com/company/xsustain/`,
-      time: `May 2022 - Sep 2023`,
-      done: [
-        `Developped a web application <a href ="https://www.risetalent.org/" target="_blank" > Rise </a> to help users to find the best job for them and companies to find the best employees.`,
-        `Integrated APIs and created a dashboard for the platform <a href ="https://www.successtudy.net/" target="_blank" > Success Study </a> to help students to find the best university for them and universities to find the best students.`,
-        `Developped and styled interactive 3 versions of web applications <a href ="https://vibeviews.netlify.app/" target="_blank" > Vibeviews </a> to collect users feedbacks about new vibes. `,
-        `Creation of the platform <a href ="https://tube-scripter.netlify.app/home" target="_blank" > TubeScript </a> to help users to create a script for their YouTube and Tiktok videos using writesonic.`,
-      ],
-    },
-  },
+
   {
     title: `Freelance Pal-Forum`,
     content: {
