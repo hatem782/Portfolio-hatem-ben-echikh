@@ -2,7 +2,7 @@ export const WhereWorked = [
   {
     title: `Xsustain`,
     content: {
-      position: `Full Stack JS`,
+      position: `Software Engineer at`,
       company: `@Xsustain`,
       companyLink: `https://www.linkedin.com/company/xsustain/`,
       time: `May 2022 - Present`,
