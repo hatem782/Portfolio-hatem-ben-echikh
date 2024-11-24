@@ -5,6 +5,7 @@ export const useStyles = makeStyles((theme) => ({
     padding: "0px 0px 100px 0px",
     width: "81%",
     margin: "auto",
+    position: "relative",
 
     [theme.breakpoints.down("xl")]: {
       padding: "0px 0px 75px 0px",
