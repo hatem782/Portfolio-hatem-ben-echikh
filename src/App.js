@@ -7,7 +7,7 @@ import NavBar from "./layouts/navbar/NavBar";
 function App() {
   return (
     <div>
-      <div className="bg-clip-text"></div>
+      {/* <div className="bg-clip-text"></div> */}
       <Theme>
         <Loading />
         <NavBar />
