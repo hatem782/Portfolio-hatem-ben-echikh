@@ -53,7 +53,7 @@ export const WhereWorked = [
       time: `Sep 2021 - Dec 2022`,
       companyLink: `https://www.facebook.com/profile.php?id=100064795743882`,
       done: [
-        `Developped a web application <a href ="https://palestine-forum.com/home" target="_blank" >Palestine-Forum</a> to help the club to present their activities and events.`,
+        `Developped a web application <a href ="https://palestine-forum.netlify.app/home" target="_blank" >Palestine-Forum</a> to help the club to present their activities and events.`,
         `Creation of a dashboard to manage the content of the website like Histories, Blogs, Events and Galeries.`,
       ],
     },
