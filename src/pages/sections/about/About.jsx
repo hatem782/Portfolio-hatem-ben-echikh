@@ -27,6 +27,7 @@ function About() {
     "Firebase",
     "SQL",
     "Unity",
+    "ThreeJs",
   ];
   return (
     <div className={styles.about} id="About">
