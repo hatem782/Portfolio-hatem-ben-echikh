@@ -2,10 +2,10 @@ export const WhereWorked = [
   {
     title: `Xsustain`,
     content: {
-      position: `Software Engineer at`,
+      position: `Fulltime Software Engineer at`,
       company: `@Xsustain`,
       companyLink: `https://www.linkedin.com/company/xsustain/`,
-      time: `May 2022 - Present`,
+      time: `May 2024 - Present`,
       done: [
         `Working as a Full-time Software Engineer specialized in the JavaScript stack, building high-performance e-commerce platforms and custom CRM solutions.`,
         `Integrated APIs and created a dashboard for the platform <a href ="https://www.successtudy.net/" target="_blank" > Success Study </a> to help students to find the best university for them and universities to find the best students.`,

@@ -6,8 +6,32 @@ import wesh_img from "../assets/images/weshield.jpg";
 import pick_img from "../assets/images/pikoro.jpg";
 import vibe_img from "../assets/images/vibe.jpg";
 import samy_img from "../assets/images/samy.jpg";
+import piramida_img from "../assets/images/piramida.jpg";
+import trena_img from "../assets/images/trena.jpg";
 
 export const my_builds = [
+  {
+    company: "Xsustain",
+    name: "Piramida Structural Design",
+    description: `
+      A platform to <span> showcase Piramida Structural Design projects</span>, highlighting expert engineering solutions, efficient formwork and reinforcement planning.
+    `,
+    image_url: piramida_img,
+    techs: ["NextJs", "Tailwind", "Typescript", "Redux", "Leaflet"],
+    github_url: null,
+    live_url: "http://51.38.49.42:3000/home",
+  },
+  {
+    company: "Trena",
+    name: "Trena Pro",
+    description: `
+     A platform to bring fitness in Tunisia together—workouts, nutrition, expert tips, and a supportive community—helping you reach your goals faster with TRENA!
+    `,
+    image_url: trena_img,
+    techs: ["ReactJs", "ExpressJs", "Redux", "Docker", "VPS", "CI/CD"],
+    github_url: null,
+    live_url: "https://trena.pro/",
+  },
   {
     company: "CodeCooperation",
     name: "Kdayes Platform",
@@ -15,7 +39,18 @@ export const my_builds = [
       A platform designed to help <span> freelancers </span> to manage their invoices seamlessly while enabling their clients to pay online with ease.
     `,
     image_url: kdayes_img,
-    techs: ["Nextjs", "Nestjs", "Typescript", "Konnect", "CI/CD"],
+    techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
+    github_url: null,
+    live_url: "https://kdayes.com/",
+  },
+  {
+    company: "CodeCooperation",
+    name: "Kdayes Platform",
+    description: `
+      A platform designed to help <span> freelancers </span> to manage their invoices seamlessly while enabling their clients to pay online with ease.
+    `,
+    image_url: kdayes_img,
+    techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
     github_url: null,
     live_url: "https://kdayes.com/",
   },
