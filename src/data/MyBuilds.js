@@ -63,7 +63,7 @@ export const my_builds = [
       "Jss",
     ],
     github_url: null,
-    live_url: "https://palestine-forum.com/",
+    live_url: "https://palestine-forum.netlify.app/",
   },
   {
     company: "Pikoro",
