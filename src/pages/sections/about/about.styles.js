@@ -42,7 +42,7 @@ export const useStyles = makeStyles((theme) => ({
           },
         },
         "& .skills": {
-          width: "600px",
+          width: "100%",
           fontWeight: "300",
           fontSize: "20px",
           lineHieght: "2",
@@ -65,7 +65,7 @@ export const useStyles = makeStyles((theme) => ({
           },
 
           "& li": {
-            width: "33%",
+            width: "20%",
             color: theme.palette.text.dark,
 
             [theme.breakpoints.down("md")]: {

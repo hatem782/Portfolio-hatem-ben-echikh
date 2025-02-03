@@ -9,7 +9,7 @@ import { useStyles } from "./about.styles";
 function About() {
   const styles = useStyles();
   const skills = [
-    "TypeScript (ES6+)",
+    "TypeScript",
     "ReactJs",
     "Redux",
     "Next.js",
@@ -18,12 +18,15 @@ function About() {
     "Prisma",
     "Tailwind",
     "Docker",
-    "Githyb CI/CD",
+    "Nginx",
+    "Certbot",
+    "Github Workflow",
     "Socket.io",
     "Node.js",
     "MongoDB",
     "Firebase",
     "SQL",
+    "Unity",
   ];
   return (
     <div className={styles.about} id="About">
