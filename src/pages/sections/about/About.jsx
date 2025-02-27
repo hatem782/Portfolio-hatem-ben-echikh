@@ -28,6 +28,10 @@ function About() {
     "SQL",
     "Unity",
     "ThreeJs",
+    "i18n",
+    "IOT",
+    "Arduino",
+    "ESP32",
   ];
   return (
     <div className={styles.about} id="About">
