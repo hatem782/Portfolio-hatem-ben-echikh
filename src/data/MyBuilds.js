@@ -20,7 +20,7 @@ export const my_builds = [
     image_url: nelssy_img,
     techs: ["ReactJs", "Bootstrap", "ExpressJS", "Redux", "i18n", "MongoDB"],
     github_url: null,
-    live_url: "http://51.38.49.42:3001/home/react",
+    live_url: "http://51.38.49.42:3001/react/home",
   },
   {
     company: "Xsustain",
