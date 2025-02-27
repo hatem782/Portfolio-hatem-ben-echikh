@@ -22,7 +22,7 @@ function About() {
     "Certbot",
     "Github Workflow",
     "Socket.io",
-    "Node.js",
+    "Express.js",
     "MongoDB",
     "Firebase",
     "SQL",
