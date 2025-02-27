@@ -1,7 +1,7 @@
 export const data = [
   {
     title: "Google Translate Integration",
-    description: `This is a prototype for integrating Google Translate into a <span>Next.js app</span>. The integration uses Google Translate to provide a language switcher that allows users to change the language of the website.`,
+    description: `This is a prototype for integrating Google Translate into a <span>Next.js app</span>. The integration uses Google Translate <span> with 0 </span> cost to provide a language switcher that allows users to change the language of the website.`,
     github:
       "https://github.com/hatem782/Next.js-Prototype-for-Google-Translate-Integration.git",
     link: "https://nextjs-free-google-translation.netlify.app/",
