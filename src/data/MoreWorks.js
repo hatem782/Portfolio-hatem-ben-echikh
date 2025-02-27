@@ -1,10 +1,25 @@
 export const data = [
   {
+    title: "Google Translate Integration",
+    description: `This is a prototype for integrating Google Translate into a <span>Next.js app</span>. The integration uses Google Translate to provide a language switcher that allows users to change the language of the website.`,
+    github:
+      "https://github.com/hatem782/Next.js-Prototype-for-Google-Translate-Integration.git",
+    link: "https://nextjs-free-google-translation.netlify.app/",
+    techs: ["Nextjs.js", "Google Translate"],
+  },
+  {
+    title: "IOT Car Control worldwide",
+    description: `This is a project that I made using <span>Next.js</span> and <span>ESP32</span> to control a car from anywhere in the world using the internet.`,
+    github: "https://github.com/hatem782/iot-car-controller.git",
+    link: "http://51.38.49.42:3003/",
+    techs: ["Next.js", "Websocket", "ESP32", "ESP32 Camera"],
+  },
+  {
     title: "My Portpholio",
     description: `This is my portpholio website that I made using <span>React.js</span> and <span>material ui</span>, it was inspired from <span>Brittany Chiang portfolio v4</span> but this project is made <span>from scratch</span>`,
-    github: "https://github.com/hatem782/Portpholio",
+    github: "https://github.com/hatem782/iot-car-controller.git",
     link: "https://hatem-benechikh.com/",
-    techs: ["React.js", "Material UI", "HTML", "Jss", "JavaScript"],
+    techs: ["React.js", "Material UI", "HTML", "Jss"],
   },
   {
     title: "Watch Together",
