@@ -7,9 +7,21 @@ import pick_img from "../assets/images/pikoro.jpg";
 import vibe_img from "../assets/images/vibe.jpg";
 import samy_img from "../assets/images/samy.jpg";
 import piramida_img from "../assets/images/piramida.jpg";
+import nelssy_img from "../assets/images/nelssy.webp";
 import trena_img from "../assets/images/trena.jpg";
 
 export const my_builds = [
+  {
+    company: "Xsustain",
+    name: "Nelssy",
+    description: `
+      A platform to <span> showcase Nelsy</span>, offering expert-led e-learning courses that make pastry techniques and secrets accessible to all.
+    `,
+    image_url: nelssy_img,
+    techs: ["ReactJs", "Bootstrap", "ExpressJS", "Redux", "i18n", "MongoDB"],
+    github_url: null,
+    live_url: "http://51.38.49.42:3001/home/react",
+  },
   {
     company: "Xsustain",
     name: "Piramida Structural Design",
