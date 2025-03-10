@@ -4,7 +4,7 @@ export const data = [
     description: `This is a website that I made using <span>Next.js</span> to show some of the memes i stole 😅`,
     github: "https://github.com/hatem782/memes.git",
     link: "https://hatem-memes.netlify.app/",
-    techs: ["Nextjs.js"],
+    techs: ["Next.js"],
   },
   {
     title: "Google Translate Integration",
@@ -12,7 +12,7 @@ export const data = [
     github:
       "https://github.com/hatem782/Next.js-Prototype-for-Google-Translate-Integration.git",
     link: "https://nextjs-free-google-translation.netlify.app/",
-    techs: ["Nextjs.js", "Google Translate"],
+    techs: ["Next.js", "Google Translate"],
   },
   {
     title: "IOT Car Control worldwide",
