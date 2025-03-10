@@ -1,7 +1,7 @@
 export const data = [
   {
     title: "Memes Gallery",
-    description: `This is a website that I made using <span>Next.js</span> to show some of the memes i stole 😅`,
+    description: `This is a website that I made using <span>Next.js</span> to show some of the memes i stole 😅, take a brak while you are working and enjoy some memes 👀.`,
     github: "https://github.com/hatem782/memes.git",
     link: "https://hatem-memes.netlify.app/",
     techs: ["Next.js"],
