@@ -1,7 +1,14 @@
 export const data = [
   {
+    title: "Memes Gallery",
+    description: `This is a website that I made using <span>Next.js</span> to show some of the memes i stole 😅`,
+    github: "https://github.com/hatem782/memes.git",
+    link: "https://hatem-memes.netlify.app/",
+    techs: ["Nextjs.js"],
+  },
+  {
     title: "Google Translate Integration",
-    description: `This is a prototype for integrating Google Translate into a <span>Next.js app</span>. The integration uses Google Translate <span> with 0 </span> cost to provide a language switcher that allows users to change the language of the website.`,
+    description: `This is a prototype for integrating Google Translate into a <span>Next.js app</span>. The integration uses Google Translate <span> with 0 cost </span> to provide a language switcher that allows users to change the language of the website.`,
     github:
       "https://github.com/hatem782/Next.js-Prototype-for-Google-Translate-Integration.git",
     link: "https://nextjs-free-google-translation.netlify.app/",
