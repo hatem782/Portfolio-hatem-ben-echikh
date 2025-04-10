@@ -11,7 +11,7 @@ import nelssy_img from "../assets/images/nelssy.webp";
 import trena_img from "../assets/images/trena.jpg";
 
 export const my_builds = [
-  {
+  /*{
     company: "Xsustain",
     name: "Nelssy",
     description: `
@@ -54,7 +54,7 @@ export const my_builds = [
     techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
     github_url: null,
     live_url: "https://kdayes.com/",
-  },
+  },*/
   {
     company: "Freelance",
     name: "UIK Website",
