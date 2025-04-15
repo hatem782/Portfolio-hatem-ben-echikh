@@ -11,7 +11,7 @@ import nelssy_img from "../assets/images/nelssy.webp";
 import trena_img from "../assets/images/trena.jpg";
 
 export const my_builds = [
-  /*{
+  {
     company: "Xsustain",
     name: "Nelssy",
     description: `
@@ -23,6 +23,17 @@ export const my_builds = [
     live_url: "http://51.38.49.42:3001/react/home",
   },
   {
+    company: "CodeCooperation",
+    name: "Kdayes Platform",
+    description: `
+      A platform designed to help <span> freelancers </span> to manage their invoices seamlessly while enabling their clients to pay online with ease.
+    `,
+    image_url: kdayes_img,
+    techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
+    github_url: null,
+    live_url: "https://kdayes.com/",
+  },
+  /*{
     company: "Xsustain",
     name: "Piramida Structural Design",
     description: `
