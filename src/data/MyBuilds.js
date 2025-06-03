@@ -90,6 +90,17 @@ export const my_builds = [
     live_url: "https://www.afk-art.com/",
   },
   {
+    company: "CodeCooperation",
+    name: "Kdayes Platform",
+    description: `
+      A platform designed to help <span> freelancers </span> to manage their invoices seamlessly while enabling their clients to pay online with ease.
+    `,
+    image_url: kdayes_img,
+    techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
+    github_url: null,
+    live_url: "https://kdayes.com/",
+  },
+  /*{
     company: "Xsustain",
     name: "Piramida Structural Design",
     description: `
@@ -121,7 +132,7 @@ export const my_builds = [
     techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
     github_url: null,
     live_url: "https://kdayes.com/",
-  },
+  },*/
   {
     company: "Freelance",
     name: "UIK Website",
