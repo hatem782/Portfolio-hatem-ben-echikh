@@ -78,17 +78,17 @@ export const my_builds = [
     live_url: "http://51.38.49.42:3001/react/home",
   },
 
-  {
-    company: "Xsustain",
-    name: "Auto Videx",
-    description: `
-      A platform to <span>discover and launch new talent</span>, AFK'ART connects aspiring stars with top-tier opportunities in TV, film, and media.
-    `,
-    image_url: afkart_img,
-    techs: ["ReactJs", "Typescript", "ExpressJS", "MongoDB"],
-    github_url: null,
-    live_url: "https://www.afk-art.com/",
-  },
+  // {
+  //   company: "Xsustain",
+  //   name: "Auto Videx",
+  //   description: `
+  //     A platform to <span>discover and launch new talent</span>, AFK'ART connects aspiring stars with top-tier opportunities in TV, film, and media.
+  //   `,
+  //   image_url: afkart_img,
+  //   techs: ["ReactJs", "Typescript", "ExpressJS", "MongoDB"],
+  //   github_url: null,
+  //   live_url: "https://www.afk-art.com/",
+  // },
   {
     company: "CodeCooperation",
     name: "Kdayes Platform",
