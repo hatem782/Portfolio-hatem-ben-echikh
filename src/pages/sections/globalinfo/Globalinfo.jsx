@@ -15,6 +15,7 @@ function Globalinfo() {
   const typeswrites = [
     "Full Stack Js",
     "Java Developer.",
+    "Educator on YouTube",
     "Software Engineer.",
     "Freelancer.",
     "NestJs Developer.",
@@ -39,7 +40,19 @@ function Globalinfo() {
           experiences using the MERN stack. I am actively seeking{" "}
           <span className="important">new challenges </span>
           and <span className="important">opportunities</span> that will allow
-          me to expand my skills and deepen my knowledge in the field.
+          me to expand my skills and deepen my knowledge in the field. I also
+          run a YouTube channel called{" "}
+          <span>
+            <a
+              className="important"
+              href="https://www.youtube.com/@HayaDev"
+              target="_blank"
+            >
+              @HayaDev
+            </a>
+          </span>
+          , where I teach a variety of topics related to IT and software
+          development.
         </p>
         <OutlinedButton onClick={handle_download_cv}>My Resume</OutlinedButton>
       </div>

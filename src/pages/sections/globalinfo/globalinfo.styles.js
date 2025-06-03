@@ -59,7 +59,8 @@ export const useStyles = makeStyles((theme) => ({
       },
     },
     "& .description": {
-      maxWidth: "800px",
+      maxWidth: "1000px",
+      textAlign: "justify",
       fontWeight: "300",
       fontSize: "24px",
       lineHeight: "1.4",

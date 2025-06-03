@@ -65,12 +65,35 @@ function About() {
             with clients and handled hosting for several production systems.
           </p>
           <p>
+            Outside of work, I run a{" "}
+            <span className="imp">
+              YouTube channel{" "}
+              <span>
+                <a
+                  className="imp"
+                  href="https://www.youtube.com/@HayaDev"
+                  target="_blank"
+                >
+                  @HayaDev
+                </a>
+              </span>
+            </span>{" "}
+            where I share what I’ve learned through university, professional
+            experience, and self-study — all in Arabic. I create content focused
+            on <span className="imp">game development</span>,{" "}
+            <span className="imp">web development</span>, and{" "}
+            <span className="imp">IoT projects</span>, aiming to make
+            programming more accessible for Arabic-speaking beginners. My goal
+            is to demystify tech topics and empower others to start building
+            real-world applications with confidence.
+          </p>
+          {/* <p>
             One of the aspects of software development that truly excites me is
             crafting complex, intuitive UI platforms. I thrive when turning
             design concepts into seamless, scalable interfaces — especially with
             tools like React Native and Next.js. My goal is always to merge
             clean architecture with user-centric design.
-          </p>
+          </p> */}
           <p>Here are a few technologies I’ve been working with recently: </p>
           <ul className="skills">
             {skills.map((skill, key) => {
