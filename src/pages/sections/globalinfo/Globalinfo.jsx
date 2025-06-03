@@ -14,6 +14,7 @@ function Globalinfo() {
 
   const typeswrites = [
     "Full Stack Js",
+    "Java Developer.",
     "Software Engineer.",
     "Freelancer.",
     "NestJs Developer.",

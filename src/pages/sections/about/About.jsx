@@ -12,9 +12,11 @@ function About() {
     "TypeScript",
     "ReactJs",
     "Redux",
-    "Next.js",
+    "NextJs",
     "React Native",
     "NestJs",
+    "Java",
+    "Spring Boot",
     "Prisma",
     "Tailwind",
     "Docker",
@@ -22,14 +24,16 @@ function About() {
     "Certbot",
     "Github Workflow",
     "Socket.io",
-    "Express.js",
+    "ExpressJs",
     "MongoDB",
     "Firebase",
     "SQL",
     "Unity",
+    "C#",
     "ThreeJs",
     "i18n",
-    "IOT",
+    "Twilio",
+    "Nylas",
     "Arduino",
     "ESP32",
   ];
@@ -39,35 +43,35 @@ function About() {
       <div className="container">
         <div className="description">
           <p>
-            As a software engineer with a background from ISAMM University, I am
-            deeply passionate about the world of technology and software
-            development. My journey as a software engineer has been greatly
-            influenced by my love for creating robust platforms, and my tool of
-            choice is the versatile <span className="imp"> JS Frameworks </span>{" "}
-            such as <span className="imp">Nextjs</span>,{" "}
-            <span className="imp">Nestjs</span> and{" "}
-            <span className="imp">React Native</span>.
+            As a software engineer with a background from{" "}
+            <span className="imp">ISAMM University</span>, I am deeply
+            passionate about technology, product-building, and user-focused
+            development. Over the past three years, through freelancing,
+            internships, and a year at <span className="imp">Xsustain</span>,
+            I’ve had the opportunity to work on a range of impactful projects
+            across startups like <span className="imp">CodeCooperation</span>,{" "}
+            <span className="imp">Pikoro</span>, and{" "}
+            <span className="imp">Qramer</span>.
           </p>
           <p>
-            Over the past three years, I have had the privilege of gaining
-            hands-on experience through freelancing and internships with
-            reputable startups and companies such as{" "}
-            <span className="imp">CodeCooperation</span>,{" "}
-            <span className="imp">Pikoro</span>,{" "}
-            <span className="imp">Qramer</span>, and{" "}
-            <span className="imp">Xsustain</span>. These opportunities have
-            exposed me to challenging and impactful projects, providing me with
-            valuable insights into the industry.
+            At <span className="imp">Xsustain</span>, I expanded my expertise by
+            building full-stack applications using{" "}
+            <span className="imp">Next.js</span> and{" "}
+            <span className="imp">Spring Boot</span>, managing projects
+            end-to-end — from development to deployment. I played a key role in
+            developing an AI-powered audio merging tool (instrumental + vocal),
+            architecting secure CI/CD pipelines, and delivering an enterprise
+            CRM with Twilio and Nylas integrations. I also led communication
+            with clients and handled hosting for several production systems.
           </p>
           <p>
-            One aspect of software development that truly ignites my enthusiasm
-            is crafting <span className="imp">complex UI</span> platforms. I
-            find immense satisfaction in intergating user interfaces that not
-            only meet but exceed user expectations. This passion drives me to
-            continuously improve my skills and explore innovative approaches to
-            front-end technologies.
+            One of the aspects of software development that truly excites me is
+            crafting complex, intuitive UI platforms. I thrive when turning
+            design concepts into seamless, scalable interfaces — especially with
+            tools like React Native and Next.js. My goal is always to merge
+            clean architecture with user-centric design.
           </p>
-          <p>Here are a few technologies I’ve been working with recently : </p>
+          <p>Here are a few technologies I’ve been working with recently: </p>
           <ul className="skills">
             {skills.map((skill, key) => {
               return (
