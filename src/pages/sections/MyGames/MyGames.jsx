@@ -1,14 +1,15 @@
 import React from "react";
-import { useStyles } from "./moreprojects.styles";
+import { useStyles } from "./mygames.styles.js";
 
 import folder_icon from "../../../assets/svgs/Folder.svg";
 import github_icon from "../../../assets/svgs/GitHub-1.svg";
 import extern_icon from "../../../assets/svgs/External Link.svg";
-import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton";
+import OutlinedButton from "../../../components/buttons/OutlinedButton/OutlinedButton.jsx";
+import { data } from "../../../data/MyGames.js";
 
-import { data } from "../../../data/MoreWorks.js";
+const isMoreThan6 = data.length > 6;
 
-function MoreProjects() {
+function MyGames() {
   const styles = useStyles();
   let first6 = data.slice(0, 6);
   let rest = data.slice(6);
@@ -27,18 +28,20 @@ function MoreProjects() {
 
   return (
     <div className={styles.main}>
-      <h1 className="big-title">Other Noteworthy Projects</h1>
+      <h1 className="big-title">Games I've Developed</h1>
       <div className="works">
         {works.map((work, index) => {
           return <WorkCard key={index} work={work} />;
         })}
       </div>
 
-      <div className="btn-more">
-        <OutlinedButton onClick={AddMore}>
-          {showMore ? "Show More" : "Show Less"}
-        </OutlinedButton>
-      </div>
+      {isMoreThan6 && (
+        <div className="btn-more">
+          <OutlinedButton onClick={AddMore}>
+            {showMore ? "Show More" : "Show Less"}
+          </OutlinedButton>
+        </div>
+      )}
     </div>
   );
 }
@@ -48,9 +51,18 @@ const WorkCard = ({ work }) => {
 
   return (
     <div className={styles.card}>
-      <div className="header-body">
-        <div className="header">
-          <img src={folder_icon} alt="" className="folder-icon" />
+      <img
+        className="main-image"
+        src={work.image}
+        alt=""
+        onClick={() => {
+          window.open(work.link, "_blank");
+        }}
+      />
+
+      <div className="body">
+        <div className="content">
+          <h2>{work.title}</h2>
 
           <div className="links">
             {work.github && (
@@ -67,23 +79,18 @@ const WorkCard = ({ work }) => {
           </div>
         </div>
 
-        <div className="body">
-          <h1 className="title">{work.title}</h1>
-          <p
-            className="desc"
-            dangerouslySetInnerHTML={{ __html: work.description }}
-          ></p>
-
-          <div className="techs"></div>
+        <div className="description">
+          <p>{work.description}</p>
         </div>
-      </div>
-      <div className="footer">
-        {work.techs.map((tech, index) => {
-          return <span key={index}>{tech}</span>;
-        })}
+
+        <div className="footer">
+          {work.techs.map((tech, index) => {
+            return <span key={index}>{tech}</span>;
+          })}
+        </div>
       </div>
     </div>
   );
 };
 
-export default MoreProjects;
+export default MyGames;

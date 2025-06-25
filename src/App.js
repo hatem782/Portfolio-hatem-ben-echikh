@@ -9,7 +9,7 @@ function App() {
     <div>
       {/* <div className="bg-clip-text"></div> */}
       <Theme>
-        <Loading />
+        {/* <Loading /> */}
         <NavBar />
         <Home />
       </Theme>

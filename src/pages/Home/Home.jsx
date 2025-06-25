@@ -9,6 +9,7 @@ import MyBuilds from "../sections/MyBuilds/MyBuilds";
 import GetInTouch from "../sections/GetInTouch/GetInTouch";
 
 import { useStyles } from "./home.styles";
+import MyGames from "../sections/MyGames/MyGames";
 
 function Home() {
   const styles = useStyles();
@@ -22,6 +23,7 @@ function Home() {
         <About />
         <WorkPlaces />
         <MyBuilds />
+        <MyGames />
         <MoreProjects />
         <GetInTouch />
       </div>

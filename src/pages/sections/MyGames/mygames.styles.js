@@ -107,16 +107,10 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: "6px",
     transition: "all 0.3s",
     boxShadow: "0 10px 30px -15px rgba(2,12,27,0.7)",
-    padding: "4% 3%",
+    overflow: "hidden",
 
     display: "flex",
-    alignItems: "flex-start",
-    justifyContent: "space-between",
     flexDirection: "column",
-
-    [theme.breakpoints.down("xl")]: {
-      padding: "3% 3%",
-    },
 
     [theme.breakpoints.down("lg")]: {
       width: "48.6%",
@@ -124,30 +118,42 @@ export const useStyles = makeStyles((theme) => ({
 
     [theme.breakpoints.down("md")]: {
       width: "100%",
-      padding: "20px",
       margin: "0px 0px 20px 0px",
     },
 
-    "& .header-body": {
+    "& .main-image": {
       width: "100%",
+      aspectRatio: "16/9",
+      cursor: "pointer",
+    },
 
-      "& .header": {
-        width: "100%",
-        margin: "0px 0px 35px 0px",
+    "& .body": {
+      padding: "30px 20px",
 
+      "& .content": {
         display: "flex",
-        alignItems: "center",
+        alignItems: "flex-start",
         justifyContent: "space-between",
+        width: "100%",
+        margin: "0px 0px 10px 0px",
 
-        [theme.breakpoints.down("xl")]: {
-          margin: "0px 0px 27px 0px",
-        },
-
-        "& .folder-icon": {
-          height: "50px",
+        "& h2": {
+          fontSize: "24px",
+          margin: "0px",
+          lineHeight: "1.1",
+          fontWeight: "500",
+          color: theme.palette.text.light,
+          transition: "all 0.2s",
+          padding: "0px",
 
           [theme.breakpoints.down("xl")]: {
-            height: "40px",
+            fontSize: "23px",
+            fontWeight: "500",
+          },
+
+          [theme.breakpoints.down("md")]: {
+            fontSize: "22px",
+            fontWeight: "400",
           },
         },
 
@@ -177,38 +183,18 @@ export const useStyles = makeStyles((theme) => ({
         },
       },
 
-      "& .body": {
-        width: "100%",
-        height: "fit-content",
-        margin: "0px 0px 35px 0px",
-
-        "& .title": {
-          fontSize: "28px",
-          margin: "0px",
-          lineHeight: "1.1",
-          fontWeight: "500",
-          color: theme.palette.text.light,
-          transition: "all 0.2s",
-
-          [theme.breakpoints.down("xl")]: {
-            fontSize: "23px",
-            fontWeight: "500",
-          },
-
-          [theme.breakpoints.down("md")]: {
-            fontSize: "20px",
-            fontWeight: "400",
-          },
-        },
-
-        "& .desc": {
+      "& .description": {
+        margin: "0px 0px 10px 0px",
+        "& p": {
           color: theme.palette.text.main,
-          fontSize: "22px",
+          fontSize: "20px",
           fontWeight: "300",
+          margin: "0px",
 
           [theme.breakpoints.down("xl")]: {
             fontSize: "18px",
             margin: "10px 0px 0px 0px",
+            textAlign: "justify",
           },
 
           "& span": {
@@ -217,30 +203,30 @@ export const useStyles = makeStyles((theme) => ({
           },
         },
       },
-    },
 
-    "& .footer": {
-      width: "100%",
+      "& .footer": {
+        width: "100%",
 
-      display: "flex",
-      flexWrap: "wrap",
-      width: "100%",
+        display: "flex",
+        flexWrap: "wrap",
+        width: "100%",
 
-      "& span": {
-        color: theme.palette.text.dark,
-        fontFamily: "SFMono",
-        fontSize: "16px",
-        fontWeight: "300",
-        display: "block",
-        margin: "0px 15px 0px 0px",
-        userSelect: "none",
+        "& span": {
+          color: theme.palette.text.dark,
+          fontFamily: "SFMono",
+          fontSize: "16px",
+          fontWeight: "300",
+          display: "block",
+          margin: "0px 15px 0px 0px",
+          userSelect: "none",
 
-        [theme.breakpoints.down("xl")]: {
-          fontSize: "13px",
-        },
+          [theme.breakpoints.down("xl")]: {
+            fontSize: "13px",
+          },
 
-        "&:hover": {
-          color: theme.palette.primary.main,
+          "&:hover": {
+            color: theme.palette.primary.main,
+          },
         },
       },
     },
@@ -249,8 +235,10 @@ export const useStyles = makeStyles((theme) => ({
       transform: "translateY(-7px)",
 
       "& .body": {
-        "& .title": {
-          color: `${theme.palette.primary.main} !important`,
+        "& .content": {
+          "& h2": {
+            color: `${theme.palette.primary.main} !important`,
+          },
         },
       },
     },
