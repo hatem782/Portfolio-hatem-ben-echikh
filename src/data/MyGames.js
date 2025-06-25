@@ -1,3 +1,8 @@
+import the_king_img from "../assets/images/games/theking.JPG";
+import poke_img from "../assets/images/games/poke.JPG";
+import fps_img from "../assets/images/games/fps.JPG";
+import cheese_img from "../assets/images/games/cheese.JPG";
+
 export const data = [
   {
     title: "Back To The Throne",
@@ -25,5 +30,14 @@ export const data = [
       "An in-development multiplayer FPS inspired by Call of Duty. Battle up to 5 players in action-packed arenas or team up to survive waves of zombies. Compete for the highest score before time runs out.",
     image: fps_img,
     techs: ["Unity", "C#", "Photon Fusion"],
+  },
+  {
+    title: "Cheddar Chase",
+    github: "https://cheese.hatem-bc.space/",
+    link: "https://cheese.hatem-bc.space/",
+    description:
+      "Cheddar Chase is a 2D game I created for a university project to promote President cheese. It includes two levels: one inspired by Mario-style platformers and another based on Plants vs. Zombies.",
+    image: cheese_img,
+    techs: ["Unity", "C#"],
   },
 ];
