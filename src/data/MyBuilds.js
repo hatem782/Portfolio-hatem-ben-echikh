@@ -122,7 +122,7 @@ export const my_builds = [
   //   github_url: null,
   //   live_url: "https://trena.pro/",
   // },
-  {
+  /*{
     company: "CodeCooperation",
     name: "Kdayes Platform",
     description: `
@@ -132,7 +132,7 @@ export const my_builds = [
     techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
     github_url: null,
     live_url: "https://kdayes.com/",
-  },
+  },*/
   {
     company: "Freelance",
     name: "UIK Website",
