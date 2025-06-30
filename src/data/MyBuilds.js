@@ -100,7 +100,7 @@ export const my_builds = [
     github_url: null,
     live_url: "https://kdayes.com/",
   },
-  /*{
+  {
     company: "Xsustain",
     name: "Piramida Structural Design",
     description: `
@@ -109,7 +109,7 @@ export const my_builds = [
     image_url: piramida_img,
     techs: ["NextJs", "Tailwind", "Typescript", "Redux", "Leaflet"],
     github_url: null,
-    live_url: "http://51.38.49.42:3000/home",
+    live_url: "https://piramida-front.netlify.app",
   },
   // {
   //   company: "Trena",
@@ -132,7 +132,7 @@ export const my_builds = [
     techs: ["NextJs", "NestJs", "Typescript", "Konnect", "CI/CD"],
     github_url: null,
     live_url: "https://kdayes.com/",
-  },*/
+  },
   {
     company: "Freelance",
     name: "UIK Website",

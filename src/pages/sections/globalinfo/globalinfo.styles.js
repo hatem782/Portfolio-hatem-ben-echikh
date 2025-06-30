@@ -69,7 +69,7 @@ export const useStyles = makeStyles((theme) => ({
 
       [theme.breakpoints.down("xl")]: {
         fontSize: "20px",
-        maxWidth: "540px",
+        maxWidth: "600px",
       },
 
       [theme.breakpoints.down("md")]: {
