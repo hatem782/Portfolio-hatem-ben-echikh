@@ -6,7 +6,7 @@ function RightBar() {
   const styles = useStyles();
   return (
     <div className={styles.main}>
-      <p onClick={ContactMe}>hatembenechikh100@gmail.com</p>
+      <p onClick={ContactMe}>contact@hatem-benechikh.com</p>
       <span className="vertical-line" />
     </div>
   );
